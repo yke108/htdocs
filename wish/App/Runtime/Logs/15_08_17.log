@@ -1,0 +1,87 @@
+[ 2015-08-17T10:26:34+08:00 ] 113.108.202.180 /wish/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.001329s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.000692s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011255s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000528s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000474s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000424s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002614s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000665s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2015-08-17T10:29:53+08:00 ] 14.17.34.190 /wish/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.001243s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.000783s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011235s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000669s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000586s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003146s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000881s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2015-08-17T10:31:35+08:00 ] 61.151.186.145 /wish/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.001405s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.000663s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010963s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000597s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000461s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000402s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002351s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2015-08-17T11:54:58+08:00 ] 14.151.5.208 /wish/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.001186s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.001820s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010249s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000535s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000401s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000312s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001982s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000611s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2015-08-17T11:55:40+08:00 ] 14.151.5.208 /wish/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001007s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' /data/home/qxu1591180029/htdocs/wish/App/Lib/Action/Index/IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.001019s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('mr.lin','[挤眼]',1439783740) [ RunTime:0.000657s ]
+

@@ -1,0 +1,30 @@
+[ 2017-02-23T19:04:03+08:00 ] 58.247.206.153 /weixin/index.php?signature=738247dcbcb33e28f2b920ecaf54c426642611c1&timestamp=1487847842&nonce=379194185&openid=ogF-_uOnmc7s7AZcoXNO9-_7f_98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022191s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id='ogF-_uOnmc7s7AZcoXNO9-_7f_98' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wx_action_log` [ RunTime:0.0010s ]
+ERR: 1048:Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `wx_action_log` (`user_id`,`act_code`,`value`,`add_time`) VALUES (NULL,'2048','5','1487847843')
+ERR: 1048:Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `wx_action_log` (`user_id`,`act_code`,`value`,`add_time`) VALUES (NULL,'2048','5','1487847843')
+
+[ 2017-02-23T19:04:22+08:00 ] 58.247.206.149 /weixin/index.php?signature=0edda887268fbf56e988dc256a0188058e7b8e98&timestamp=1487847862&nonce=1764567823&openid=ogF-_uOnmc7s7AZcoXNO9-_7f_98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id='ogF-_uOnmc7s7AZcoXNO9-_7f_98' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_action_log` [ RunTime:0.0009s ]
+ERR: 1048:Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `wx_action_log` (`user_id`,`act_code`,`value`,`add_time`) VALUES (NULL,'/::D/::D','1','1487847862')
+ERR: 1048:Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `wx_action_log` (`user_id`,`act_code`,`value`,`add_time`) VALUES (NULL,'/::D/::D','1','1487847862')
+

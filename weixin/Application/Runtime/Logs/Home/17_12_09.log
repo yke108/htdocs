@@ -1,0 +1,18 @@
+[ 2017-12-09T23:29:56+08:00 ] 140.207.54.80 /weixin/index.php?signature=a598c3c21ace9f084642a8bb222ba06eb1e73c47&timestamp=1512833385&nonce=1001862755&openid=ogF-_uN-5gu0ibDqHGiuWQ6UWqqc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004581s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'qdm174464438'@'115.29.100.51' (using password: YES)
+
+[ 2017-12-09T23:29:57+08:00 ] 140.207.54.79 /weixin/index.php?signature=174666da0c97d1fb8fd8b84146096aaab3c8e9cb&timestamp=1512833387&nonce=821687741&openid=ogF-_uN-5gu0ibDqHGiuWQ6UWqqc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'qdm174464438'@'115.29.100.51' (using password: YES)
+

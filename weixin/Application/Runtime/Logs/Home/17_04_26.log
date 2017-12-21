@@ -1,0 +1,39 @@
+[ 2017-04-26T21:58:44+08:00 ] 58.247.206.148 /weixin/index.php?signature=b05749a0083ad044f2d9503d79589ea94a91f5a0&timestamp=1493215124&nonce=131437527&openid=ogF-_uBUGhhamh823skhV-KWZzEQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019265s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id = 'ogF-_uBUGhhamh823skhV-KWZzEQ' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wx_user_info` (`open_id`,`status`,`add_time`,`update_time`) VALUES ('ogF-_uBUGhhamh823skhV-KWZzEQ','1','1493215124','1493215124') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.049266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.049360s ]
+
+[ 2017-04-26T21:58:53+08:00 ] 101.226.33.208 /weixin/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/home/qxu1591180029/htdocs/weixin/Application/Home/Model/WechatModel.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2017-04-26T21:59:09+08:00 ] 58.247.206.158 /weixin/index.php?signature=238ea726735be6e386c55955250522157bef21b6&timestamp=1493215150&nonce=1586410294&openid=ogF-_uBUGhhamh823skhV-KWZzEQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0012s ]
+SQL: UPDATE `wx_user_info` SET `status`='0',`update_time`='1493215149' WHERE ( open_id = 'ogF-_uBUGhhamh823skhV-KWZzEQ' ) [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+

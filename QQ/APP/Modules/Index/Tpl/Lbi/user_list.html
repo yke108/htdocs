@@ -1,0 +1,23 @@
+<if condition="empty($friend_list)">
+	<p align="center" style="line-height:25px;">
+	<if condition='empty($search)'>你还没有一个好友哦~~<br /><a href="{:U(GROUP_NAME.'/Index/addFriend')}">赶紧添加好友吧</a><else />无“{$search}”的搜索结果</if>
+	</p>
+<else />
+<ul class="user_list">
+	<foreach name='friend_list' item='v'>
+	<li>
+		<div class="user_img" style="padding-left:5px;">
+			<a title="修改备注" href="javascript:remark({$v.friend_id},'{$v.remark}')"><img width="40px" height="40px" src="__PUBLIC__/images/{$v.logo}" /></a>
+		</div>
+		<div class="user_info" style="padding-left:5px;">
+		<p id='remark_{$v.friend_id}'>
+			<if condition="empty($v['remark'])">{$v.user_name}<else />{$v.remark}<font color="gray">({$v.user_name})</font></if>
+		</p>
+		<p style="color:#808080;"><if condition="empty($v['style_name'])">这家伙很懒，什么都没留下<else />{$v.style_name}</if></p>
+		</div>
+		<div class="chattips"><a href="{:U(GROUP_NAME.'/Index/chat',array('user_id'=>$v['friend_id']))}" target="_blank"><img title="聊天" src="__PUBLIC__/images/chat.png" /></a> 
+		</div>
+	</li>
+	</foreach>
+</ul>
+</if>

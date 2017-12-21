@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>头部</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <link href="__ASSETS__/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style type="text/css">
+   body{
+      margin: 0 10px;
+   }
+   li{
+      margin: 20px;
+   }
+</style>
+<body>
+   <div id="myTabContent" class="tab-content">
+      <div class="tab-pane fade in active" id="read" style="padding:10px;">
+        <h1>搜索“{$keyword}”的结果：</h1>
+        <hr style="margin:5px;" />
+        <ol>
+          <foreach name="art_list" item="v">
+           <li>
+           <a href="{:U('Home/Main/main#art_'.$v['art_id'], 'menu_id='.$v['menu_id'])}">
+              {$v.title}
+              <if condition="$v['summary'] neq ''">
+              <br />{$v.summary}
+              </if>
+              <br />{$v.description}
+           </a>
+           </li>
+          </foreach>
+        </ol>
+      </div>
+   </div>
+</body>
+</html>	

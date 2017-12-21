@@ -1,0 +1,42 @@
+[ 2017-06-13T07:02:39+08:00 ] 140.207.54.73 /weixin/index.php?signature=70d037319435ea59d320cc6b8e3066c3a7623215&timestamp=1497308558&nonce=1177884250&openid=ogF-_uFiDeS77UNZdXoPlxwPhomE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id = 'ogF-_uFiDeS77UNZdXoPlxwPhomE' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wx_user_info` (`open_id`,`status`,`add_time`,`update_time`) VALUES ('ogF-_uFiDeS77UNZdXoPlxwPhomE','1','1497308559','1497308559') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2017-06-13T07:02:48+08:00 ] 180.153.160.24 /weixin/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/home/qxu1591180029/htdocs/weixin/Application/Home/Model/WechatModel.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2017-06-13T07:02:52+08:00 ] 140.207.54.74 /weixin/index.php?signature=5cf4553e2919a03e4961a8afec52f89dbb1abf5c&timestamp=1497308571&nonce=767461635&openid=ogF-_uFiDeS77UNZdXoPlxwPhomE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id='ogF-_uFiDeS77UNZdXoPlxwPhomE' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wx_action_log` [ RunTime:0.0011s ]
+SQL: INSERT INTO `wx_action_log` (`user_id`,`act_code`,`value`,`add_time`) VALUES ('42','有房子租吗','1','1497308572') [ RunTime:0.0008s ]
+SQL: UPDATE `wx_user_info` SET `credit`='1' WHERE ( user_id=42 ) [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+

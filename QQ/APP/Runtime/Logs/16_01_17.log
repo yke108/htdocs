@@ -1,0 +1,5 @@
+[ 2016-01-17T08:15:57+08:00 ] 218.241.108.242 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010980s ]
+

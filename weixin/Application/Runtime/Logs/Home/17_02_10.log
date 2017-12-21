@@ -1,0 +1,13 @@
+[ 2017-02-10T18:31:26+08:00 ] 58.247.206.153 /weixin/index.php?signature=dced5d794cb5c28920b485f264b14c98904d2c22&timestamp=1486722687&nonce=1471724625&openid=ogF-_uN4gqkM9J24y6RSDKOGFF80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0014s ]
+SQL: UPDATE `wx_user_info` SET `status`='0',`update_time`='1486722686' WHERE ( open_id = 'ogF-_uN4gqkM9J24y6RSDKOGFF80' ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+

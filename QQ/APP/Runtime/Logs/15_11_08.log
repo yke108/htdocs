@@ -1,0 +1,74 @@
+[ 2015-11-08T00:40:31+08:00 ] 66.249.74.61 /index.php/Index/Login/qq_login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000922s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /data/home/qxu1591180029/htdocs/Class/Connect2.0/API/qqConnectAPI.php 第 2 行.
+
+[ 2015-11-08T06:12:48+08:00 ] 183.136.190.40 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+
+[ 2015-11-08T13:10:59+08:00 ] 121.42.0.35 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+
+[ 2015-11-08T13:55:38+08:00 ] 218.241.108.79 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+
+[ 2015-11-08T13:55:38+08:00 ] 218.241.108.79 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010442s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000434s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000363s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000285s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001727s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000595s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2015-11-08T16:44:27+08:00 ] 121.42.0.30 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+
+[ 2015-11-08T19:13:45+08:00 ] 66.249.74.63 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+
+[ 2015-11-08T19:13:46+08:00 ] 66.249.74.63 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008712s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000386s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000519s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001986s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000609s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000674s ]
+

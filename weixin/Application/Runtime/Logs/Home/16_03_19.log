@@ -1,0 +1,33 @@
+[ 2016-03-19T20:32:35+08:00 ] 58.247.206.153 /weixin/index.php?signature=c4d9f763e285d67fbbb12a9a0886b7f5bb51d752&timestamp=1458390754&nonce=804271430
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id='ogCNcwXhorURAuwWW7l6SEgJjZd0' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wx_action_log` [ RunTime:0.0010s ]
+SQL: INSERT INTO `wx_action_log` (`user_id`,`act_code`,`value`,`add_time`) VALUES ('8','/::$','1','1458390755') [ RunTime:0.0005s ]
+SQL: UPDATE `wx_user_info` SET `credit`='37' WHERE ( user_id=8 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2016-03-19T20:33:44+08:00 ] 58.247.206.153 /weixin/index.php?signature=12884b69a7575d56eaed948b83637aae789650fc&timestamp=1458390824&nonce=235983253
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id='ogCNcwXhorURAuwWW7l6SEgJjZd0' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wx_action_log` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wx_action_log` WHERE ( user_id=8 )  [ RunTime:0.0007s ]
+SQL: INSERT INTO `wx_action_log` (`user_id`,`act_code`,`value`,`add_time`) VALUES ('8','查询个人信息','0','1458390824') [ RunTime:0.0006s ]
+SQL: UPDATE `wx_user_info` SET `credit`='37' WHERE ( user_id=8 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+

@@ -1,0 +1,9 @@
+[ 2017-10-23T17:49:02+08:00 ] 140.207.54.76 /weixin/index.php?signature=e8db236bfefc9977b972168874a4f360f53e7573&timestamp=1508752140&nonce=10209666&openid=ogF-_uBJwFzHvaI70zaY4w15ORlM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013917s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'qdm174464438'@'115.29.100.51' (using password: YES)
+

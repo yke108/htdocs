@@ -1,0 +1,278 @@
+[ 2016-03-14T10:16:09+08:00 ] 58.247.206.148 /weixin/index.php?signature=b56f3c3722ea9415c26297b1e2a9a68749926d54&timestamp=1457921768&nonce=1104261064
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id = 'ogCNcwXhorURAuwWW7l6SEgJjZd0' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `wx_user_info` SET `status`='1',`update_time`='1457921769' WHERE ( open_id = 'ogCNcwXhorURAuwWW7l6SEgJjZd0' ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2016-03-14T10:16:33+08:00 ] 58.247.206.153 /weixin/index.php?signature=6760a0bfe1466ca9d9153ab2cd198482397192b0&timestamp=1457921793&nonce=359993469
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `wx_access_token` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wx_access_token` ORDER BY log_id DESC LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: ch /data/home/qxu1591180029/htdocs/weixin/Application/Common/Common/function.php 第 17 行.
+NOTIC: [2] curl_close() expects parameter 1 to be resource, null given /data/home/qxu1591180029/htdocs/weixin/Application/Common/Common/function.php 第 17 行.
+SQL: INSERT INTO `wx_access_token` (`access_token`,`expires_in`,`add_time`) VALUES ('ZYaWnDobjgEBPfcJEU9QwtSJFs19mIoTn4Pi7_2R7az0Un16HzoI82wfsr21qCglCzexpSNaKumSzRmEpL4xiWx5OWaYcUN6iZX-beR_wNo7i8hg93aUt__X3Yu4NExRWJAdADAPCT','7200','1457921793') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-03-14T10:16:51+08:00 ] 58.247.206.148 /weixin/index.php?signature=79c60f0f7a4a173b2b137f5de890233bc37cd401&timestamp=1457921811&nonce=1009060692
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0009s ]
+SQL: INSERT INTO `wx_user_info` (`open_id`,`status`,`add_time`,`update_time`) VALUES ('fdsafdsafdsafds','1','1457921811','1457921811') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-03-14T10:18:09+08:00 ] 58.247.206.148 /weixin/index.php?signature=fc2d229d1bccd6a1c49a8e0d0c767ae7d436e960&timestamp=1457921889&nonce=323797422
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id = 'ogCNcwXhorURAuwWW7l6SEgJjZd0' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `wx_user_info` SET `status`='1',`update_time`='1457921889' WHERE ( open_id = 'ogCNcwXhorURAuwWW7l6SEgJjZd0' ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2016-03-14T10:18:20+08:00 ] 58.247.206.153 /weixin/index.php?signature=c45b0756c284e01815efbd2857f76f19b6abc60f&timestamp=1457921900&nonce=106779780
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0010s ]
+SQL: INSERT INTO `wx_user_info` (`open_id`,`status`,`add_time`,`update_time`) VALUES ('ogCNcwXhorURAuwWW7l6SEgJjZd0ogCNcwXhorURAuwWW7l6SEgJjZd0','1','1457921900','1457921900') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2016-03-14T10:19:51+08:00 ] 58.247.206.153 /weixin/index.php?signature=84ac9038d034f526c06ab182e461969f764406b8&timestamp=1457921991&nonce=1772770101
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id = 'ogCNcwXhorURAuwWW7l6SEgJjZd0' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `wx_user_info` SET `status`='1',`update_time`='1457921991' WHERE ( open_id = 'ogCNcwXhorURAuwWW7l6SEgJjZd0' ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2016-03-14T10:19:52+08:00 ] 112.64.235.251 /weixin/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/home/qxu1591180029/htdocs/weixin/Application/Lib/WechatCallbackapi.class.php 第 8 行.
+
+[ 2016-03-14T10:20:08+08:00 ] 58.247.206.153 /weixin/index.php?signature=d1c4057bdeccda10635af1b2a9d710337ec81351&timestamp=1457922008&nonce=843163173
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0010s ]
+SQL: UPDATE `wx_user_info` SET `status`='0',`update_time`='1457922008' WHERE ( open_id = 'ogCNcwXhorURAuwWW7l6SEgJjZd0' ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-03-14T10:21:49+08:00 ] 58.247.206.148 /weixin/index.php?signature=dc6670cce780e9c39a239e0b284568a59c9ffa0b&timestamp=1457922109&nonce=1741836431
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id = 'ogCNcwXhorURAuwWW7l6SEgJjZd0' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `wx_user_info` SET `status`='1',`update_time`='1457922109' WHERE ( open_id = 'ogCNcwXhorURAuwWW7l6SEgJjZd0' ) [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2016-03-14T12:10:15+08:00 ] 58.247.206.143 /weixin/index.php?signature=6cbf6a71c0a3f34e6704d9b4ca7e5a6e279fb522&timestamp=1457928615&nonce=653006990
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-03-14T12:10:36+08:00 ] 58.247.206.153 /weixin/index.php?signature=61cfca0ff1f1542970c1c0e69ca67ea0a23f9fe2&timestamp=1457928636&nonce=1927934845
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-03-14T12:11:13+08:00 ] 58.247.206.140 /weixin/index.php?signature=aa12308ed7c6906f8739e864ea00c4acea49a65c&timestamp=1457928672&nonce=1484222258
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-03-14T12:12:11+08:00 ] 58.247.206.148 /weixin/index.php?signature=e8d6fce814539f885c821f66ffc6f27b2a89d4f3&timestamp=1457928731&nonce=826760857
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-03-14T12:12:19+08:00 ] 58.247.206.153 /weixin/index.php?signature=11530fbb6ec047b19de976e5e304d8742098219c&timestamp=1457928739&nonce=919938605
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+
+[ 2016-03-14T12:13:53+08:00 ] 58.247.206.143 /weixin/index.php?signature=57f94038f60759b56a59a577759c510a52c0cff5&timestamp=1457928833&nonce=942831367
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-03-14T12:19:43+08:00 ] 58.247.206.143 /weixin/index.php?signature=f7f5583aca6e1bdc73672fdb95ee618d8c423d5f&timestamp=1457929183&nonce=1922492639
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2016-03-14T13:42:12+08:00 ] 58.247.206.158 /weixin/index.php?signature=ea99290a564f8be50e5c3154804d5e9590643e74&timestamp=1457934131&nonce=1456678888
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0013s ]
+SQL: UPDATE `wx_user_info` SET `status`='0',`update_time`='1457934132' WHERE ( open_id = 'ogCNcwXhorURAuwWW7l6SEgJjZd0' ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2016-03-14T13:42:41+08:00 ] 58.247.206.158 /weixin/index.php?signature=c8f6160bf1debc17a5c40ec507f3b022e5aa5a83&timestamp=1457934160&nonce=1452624660
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id = 'ogCNcwXhorURAuwWW7l6SEgJjZd0' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `wx_user_info` SET `status`='1',`update_time`='1457934161' WHERE ( open_id = 'ogCNcwXhorURAuwWW7l6SEgJjZd0' ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2016-03-14T13:43:42+08:00 ] 58.247.206.143 /weixin/index.php?signature=a16c222a592c3dfd18d237eb8ffa7cf41dbee959&timestamp=1457934222&nonce=706697244
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2016-03-14T13:44:29+08:00 ] 58.247.206.153 /weixin/index.php?signature=6a3c1beae3a5da0e081738568d0ac1d5ab258197&timestamp=1457934269&nonce=1113799770
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2016-03-14T13:45:22+08:00 ] 58.247.206.143 /weixin/index.php?signature=6d1a8d1b9b6cf02ad71af80b609c68f08a237529&timestamp=1457934322&nonce=2103152133
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2016-03-14T13:46:47+08:00 ] 58.247.206.158 /weixin/index.php?signature=8292bf88117c7c6c2c98cee43793db0373c7a6b4&timestamp=1457934407&nonce=728954395
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2016-03-14T13:47:11+08:00 ] 58.247.206.148 /weixin/index.php?signature=f3391fb200421407efa090b2a34a73e8183574bd&timestamp=1457934431&nonce=2032569931
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-03-14T13:48:00+08:00 ] 58.247.206.143 /weixin/index.php?signature=9054dab88737dce0ab3832478c7bb646348a1523&timestamp=1457934480&nonce=344038325
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+

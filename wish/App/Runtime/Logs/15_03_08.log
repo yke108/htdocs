@@ -1,0 +1,1126 @@
+[ 2015-03-08T00:04:53+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-03-08T00:12:12+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:25:05+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+
+[ 2015-03-08T00:25:20+08:00 ] 127.0.0.1 /wish2/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-03-08T00:25:29+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+
+[ 2015-03-08T00:33:48+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+
+[ 2015-03-08T00:34:22+08:00 ] 127.0.0.1 /wish2/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:34:32+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.000000s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('kk ','dd[嘻嘻][嘻嘻][嘻嘻]',1425746072) [ RunTime:0.015625s ]
+
+[ 2015-03-08T00:36:43+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-03-08T00:36:45+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:37:36+08:00 ] 127.0.0.1 /wish2/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-03-08T00:37:41+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.000000s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('a','a[抱抱][抱抱]',1425746261) [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:37:46+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.000000s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('a','a[抱抱][抱抱]',1425746266) [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:37:55+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.000000s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('a','a[抱抱][抱抱][嘻嘻][嘻嘻]',1425746275) [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:43:09+08:00 ] 127.0.0.1 /wish2/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:44:18+08:00 ] 127.0.0.1 /wish2/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.140625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.031250s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.078125s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.031250s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.140625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:44:23+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.000000s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('a','a[嘻嘻]',1425746663) [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:46:49+08:00 ] 127.0.0.1 /wish2/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:46:54+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:46:59+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:47:04+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:47:09+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:47:14+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:47:19+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:47:21+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:47:25+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.000000s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('a','a[抱抱]',1425746845) [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:49:09+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.000000s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('a','a[抱抱]',1425746948) [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:49:29+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.000000s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('a','a[抱抱]',1425746969) [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:50:23+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.000000s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('a','a[抱抱]',1425747023) [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:50:27+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.031250s ]
+
+[ 2015-03-08T00:50:30+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.000000s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('s','s',1425747030) [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:50:37+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.015625s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('s','s[害羞][害羞]',1425747037) [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:52:14+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:55:29+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.031250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031250s ]
+
+[ 2015-03-08T00:55:44+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:55:53+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:55:57+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.000000s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('f','f[嘻嘻][嘻嘻][嘻嘻][嘻嘻]',1425747357) [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:57:27+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:57:31+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.015625s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('p','p',1425747451) [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:57:32+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.000000s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('p','p',1425747452) [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:57:32+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.000000s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('p','p',1425747452) [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:57:32+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.015625s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('p','p',1425747452) [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:57:33+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.015625s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('p','p',1425747453) [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:57:49+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.109375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109375s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.140625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.171875s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:57:53+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.000000s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('s','a',1425747473) [ RunTime:0.015625s ]
+
+[ 2015-03-08T00:57:54+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.015625s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('s','a',1425747474) [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:59:26+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:59:30+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.000000s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('魂牵梦萦','[抱抱][抱抱][抱抱]',1425747570) [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:59:55+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.000000s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('魂牵梦萦','[抱抱][抱抱][抱抱]',1425747595) [ RunTime:0.000000s ]
+
+[ 2015-03-08T00:59:59+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T01:00:04+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.015625s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('大','[抓狂]',1425747604) [ RunTime:0.000000s ]
+
+[ 2015-03-08T01:35:14+08:00 ] 127.0.0.1 /wish2/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.031250s ]
+
+[ 2015-03-08T01:54:33+08:00 ] 127.0.0.1 /wish2/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:index
+
+[ 2015-03-08T01:54:38+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.109375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109375s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-03-08T01:54:52+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.015625s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('a','a[酷]',1425750891) [ RunTime:0.000000s ]
+
+[ 2015-03-08T02:04:02+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.046875s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T02:18:04+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T02:18:14+08:00 ] 127.0.0.1 /wish2/index.php/Index/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\Index\IndexAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.000000s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('来咯','[抓狂]',1425752294) [ RunTime:0.000000s ]
+
+[ 2015-03-08T02:18:19+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-03-08T02:46:41+08:00 ] 127.0.0.1 /wish2/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T02:47:47+08:00 ] 127.0.0.1 /wish2/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T02:49:12+08:00 ] 127.0.0.1 /wish2/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.031250s ]
+INFO: [ route_check ] --END-- [ RunTime:0.031250s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.140625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.031250s ]
+
+[ 2015-03-08T02:49:22+08:00 ] 127.0.0.1 /wish2/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T02:53:44+08:00 ] 127.0.0.1 /wish2/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T02:53:46+08:00 ] 127.0.0.1 /wish2/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:01:41+08:00 ] 127.0.0.1 /wish2/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:01:46+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:01:49+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:01:54+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:02:00+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:02:05+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:02:10+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:02:15+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:02:20+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:02:25+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:02:30+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:02:35+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:02:40+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:02:40+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:02:41+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:02:41+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:02:43+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:02:46+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:02:52+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:02:58+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:03:04+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:03:10+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:03:16+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:03:22+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:03:28+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:03:34+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:03:40+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:03:46+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:03:52+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:03:58+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:04:04+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:04:10+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:04:16+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:04:22+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:04:28+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:04:33+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:04:34+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:04:39+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:04:44+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:04:50+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:04:50+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:05:14+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-03-08T03:05:38+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.031250s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T03:05:49+08:00 ] 127.0.0.1 /wish2/index.php/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\App\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.000000s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('怎么样','OK[抱抱]',1425755149) [ RunTime:0.000000s ]
+
+[ 2015-03-08T03:05:53+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.031250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031250s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-08T03:07:04+08:00 ] 127.0.0.1 /wish2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-03-08T03:07:35+08:00 ] 127.0.0.1 /wish2/index.php/Index/handle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wish - assumed 'wish' D:\WampServer\www\wish2\Index\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.015625s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('陈茂松','[抓狂]',1425755255) [ RunTime:0.000000s ]
+
+[ 2015-03-08T03:10:03+08:00 ] 127.0.0.1 /wish2/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-03-08T09:50:14+08:00 ] 127.0.0.1 /wish2/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031250s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.062500s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.109375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109375s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+

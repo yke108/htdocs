@@ -1,0 +1,10 @@
+[ 2015-09-16T07:51:59+08:00 ] 183.136.190.62 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+
+[ 2015-09-16T15:55:27+08:00 ] 183.136.190.62 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+

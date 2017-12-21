@@ -1,0 +1,63 @@
+[ 2016-03-27T15:35:44+08:00 ] 58.247.206.148 /weixin/index.php?signature=23f6bb354d6b76b3264cdc692f5f3be4a0ffce0d&timestamp=1459064142&nonce=1843394470
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011960s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id='ogCNcwXhorURAuwWW7l6SEgJjZd0' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wx_action_log` [ RunTime:0.0010s ]
+SQL: INSERT INTO `wx_action_log` (`user_id`,`act_code`,`value`,`add_time`) VALUES ('8','/::D','1','1459064144') [ RunTime:0.0033s ]
+SQL: UPDATE `wx_user_info` SET `credit`='45' WHERE ( user_id=8 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026525s ]
+
+[ 2016-03-27T15:35:51+08:00 ] 58.247.206.148 /weixin/index.php?signature=1873d9c6f944997683dcd18d9063c21ab8c1e91a&timestamp=1459064151&nonce=463727068
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id='ogCNcwXhorURAuwWW7l6SEgJjZd0' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wx_action_log` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wx_action_log` WHERE ( user_id=8 )  [ RunTime:0.0005s ]
+SQL: INSERT INTO `wx_action_log` (`user_id`,`act_code`,`value`,`add_time`) VALUES ('8','查询个人信息','0','1459064151') [ RunTime:0.0007s ]
+SQL: UPDATE `wx_user_info` SET `credit`='45' WHERE ( user_id=8 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2016-03-27T15:37:21+08:00 ] 58.247.206.153 /weixin/index.php?signature=622e1778076958e7d5e157a89cf711f5b6ff2de0&timestamp=1459064241&nonce=1864437228
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id='ogCNcwXhorURAuwWW7l6SEgJjZd0' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_action_log` [ RunTime:0.0007s ]
+SQL: INSERT INTO `wx_action_log` (`user_id`,`act_code`,`value`,`add_time`) VALUES ('8','飞机战争','5','1459064241') [ RunTime:0.0005s ]
+SQL: UPDATE `wx_user_info` SET `credit`='50' WHERE ( user_id=8 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2016-03-27T20:41:21+08:00 ] 140.207.54.77 /weixin/index.php?signature=d74417223e4da6cff845786f5a11839ab66a0879&timestamp=1459082481&nonce=1602172675
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id = 'ogF-_uPnb8y8mwM13p2b2udBEutU' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wx_user_info` (`open_id`,`status`,`add_time`,`update_time`) VALUES ('ogF-_uPnb8y8mwM13p2b2udBEutU','1','1459082481','1459082481') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+

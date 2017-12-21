@@ -1,0 +1,54 @@
+[ 2016-03-02T12:29:36+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-03-02T12:29:37+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-03-02T12:29:39+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-03-02T12:29:40+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-03-02T12:29:40+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-03-02T12:29:40+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-03-02T12:29:40+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-03-02T12:29:40+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-03-02T15:03:04+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/index.php/Common
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001420s ]
+ERR: 无法加载模块:Common
+

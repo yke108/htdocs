@@ -1,0 +1,15 @@
+[ 2015-10-27T06:50:00+08:00 ] 121.42.0.30 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+
+[ 2015-10-27T09:35:58+08:00 ] 121.42.0.17 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+
+[ 2015-10-27T13:08:43+08:00 ] 121.42.0.34 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+

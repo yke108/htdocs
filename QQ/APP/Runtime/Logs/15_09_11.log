@@ -1,0 +1,606 @@
+[ 2015-09-11T07:22:15+08:00 ] 218.241.97.200 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+
+[ 2015-09-11T16:03:20+08:00 ] 64.246.165.180 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+
+[ 2015-09-11T16:03:20+08:00 ] 64.246.165.180 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011439s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049541s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001861s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.016048s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003028s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023231s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.016393s ]
+INFO: [ view_end ] --END-- [ RunTime:0.016544s ]
+
+[ 2015-09-11T17:28:31+08:00 ] 218.241.98.202 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+
+[ 2015-09-11T17:28:31+08:00 ] 218.241.98.202 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000835s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008222s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000431s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000380s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000285s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001805s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000710s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2015-09-11T19:05:46+08:00 ] 183.136.190.40 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+
+[ 2015-09-11T23:51:19+08:00 ] 58.62.252.222 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+
+[ 2015-09-11T23:51:19+08:00 ] 58.62.252.222 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000809s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010925s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000674s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000419s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000306s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002073s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000760s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2015-09-11T23:51:23+08:00 ] 58.62.252.222 /index.php/Index/Login/runLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000847s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001011s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = 'aa' ) AND ( `password` = '4124bc0a9335c27f086f24ba207a4912' ) LIMIT 1   [ RunTime:0.000642s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030746s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000656s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000668s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000289s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002306s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2015-09-11T23:51:25+08:00 ] 58.62.252.222 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.001178s ]
+SQL: SHOW COLUMNS FROM qq_user u [ RunTime:0.000683s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_user u
+SQL: SHOW COLUMNS FROM qq_relation r [ RunTime:0.000399s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'r' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_relation r
+SQL: SELECT u.user_name,u.logo,u.style_name,r.friend_id,r.remark,r.group_name FROM qq_user u LEFT JOIN qq_relation r on u.user_id=r.friend_id WHERE ( r.user_id=1 AND status=1 AND (u.user_name like '%%' OR r.remark like '%%') )  [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000861s ]
+SQL: SELECT `user_name`,`style_name`,`logo` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.001028s ]
+SQL: SELECT count(*) num FROM `qq_relation` WHERE ( friend_id=1 and status=0 ) LIMIT 1   [ RunTime:0.000654s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020098s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000431s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000678s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000355s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002225s ]
+NOTIC: [8] Constant THEME_NAME already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031646s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002723s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000172s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000078s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000019s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.032578s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000739s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2015-09-11T23:51:27+08:00 ] 58.62.252.222 /index.php/Index/Index/dialog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000908s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000849s ]
+SQL: SELECT `user_name`,`style_name`,`logo` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.000896s ]
+SQL: SELECT count(*) num FROM `qq_relation` WHERE ( friend_id=1 and status=0 ) LIMIT 1   [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM qq_content q1 [ RunTime:0.000463s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'q1' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_content q1
+SQL: SELECT q1.id,q1.user_id,q1.pid,q1.content,q1.time FROM qq_content q1 inner join ( SELECT `pid`,MAX(time) AS t FROM `qq_content` WHERE ( user_id=1 ) GROUP BY pid  ) AS q2 ON q1.time=q2.t AND q1.pid=q2.pid  [ RunTime:0.001172s ]
+SQL: SELECT q1.id,q1.user_id,q1.pid,q1.content,q1.time FROM qq_content q1 inner join ( SELECT `user_id`,MAX(time) AS t FROM `qq_content` WHERE ( pid=1 ) GROUP BY user_id  ) AS q2 ON q1.time=q2.t AND q1.user_id=q2.user_id  [ RunTime:0.000975s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000678s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=1 AND friend_id=29 ) LIMIT 1   [ RunTime:0.000574s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000590s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=22 ) LIMIT 1   [ RunTime:0.000744s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=1 AND friend_id=22 ) LIMIT 1   [ RunTime:0.000667s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000449s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.000586s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=1 AND friend_id=2 ) LIMIT 1   [ RunTime:0.000584s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000478s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.000547s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=1 AND friend_id=7 ) LIMIT 1   [ RunTime:0.000545s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000554s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=3 ) LIMIT 1   [ RunTime:0.000551s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=1 AND friend_id=3 ) LIMIT 1   [ RunTime:0.000783s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000699s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=6 ) LIMIT 1   [ RunTime:0.002671s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=1 AND friend_id=6 ) LIMIT 1   [ RunTime:0.000744s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000474s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067525s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000462s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000487s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001998s ]
+NOTIC: [8] Constant THEME_NAME already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006910s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002480s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000114s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000045s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000010s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007514s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000749s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2015-09-11T23:52:45+08:00 ] 58.62.252.222 /index.php/Index/Index/chat/user_id/29
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000827s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001139s ]
+SQL: SELECT `user_id`,`user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( `user_id` = 29 ) LIMIT 1   [ RunTime:0.000678s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029135s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000795s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000676s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000287s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002661s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000610s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2015-09-11T23:52:46+08:00 ] 58.62.252.222 /index.php/Index/Index/runChat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000781s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.002344s ]
+SQL: SELECT * FROM `qq_content` WHERE ( (user_id=1 and pid=29) or (user_id=29 and pid=1) ) ORDER BY time  [ RunTime:0.001742s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.003381s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000625s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000495s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000489s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000449s ]
+
+[ 2015-09-11T23:52:46+08:00 ] 58.62.252.222 /index.php/Index/Index/runChat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.001202s ]
+SQL: SELECT * FROM `qq_content` WHERE ( (user_id=1 and pid=29) or (user_id=29 and pid=1) ) ORDER BY time  [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001038s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000480s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000497s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000468s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000467s ]
+
+[ 2015-09-11T23:52:47+08:00 ] 58.62.252.222 /index.php/Index/Index/runChat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000838s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.001090s ]
+SQL: SELECT * FROM `qq_content` WHERE ( (user_id=1 and pid=29) or (user_id=29 and pid=1) ) ORDER BY time  [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000830s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000487s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000431s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000459s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000448s ]
+
+[ 2015-09-11T23:52:47+08:00 ] 58.62.252.222 /index.php/Index/Index/runChat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.001100s ]
+SQL: SELECT * FROM `qq_content` WHERE ( (user_id=1 and pid=29) or (user_id=29 and pid=1) ) ORDER BY time  [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000839s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000441s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000426s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000605s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000417s ]
+
+[ 2015-09-11T23:52:48+08:00 ] 58.62.252.222 /index.php/Index/Index/runChat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001067s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.001092s ]
+SQL: SELECT * FROM `qq_content` WHERE ( (user_id=1 and pid=29) or (user_id=29 and pid=1) ) ORDER BY time  [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000878s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000422s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000524s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000452s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000758s ]
+
+[ 2015-09-11T23:52:48+08:00 ] 58.62.252.222 /index.php/Index/Index/runChat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000826s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.001111s ]
+SQL: SELECT * FROM `qq_content` WHERE ( (user_id=1 and pid=29) or (user_id=29 and pid=1) ) ORDER BY time  [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000865s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000503s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000743s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000644s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000422s ]
+
+[ 2015-09-11T23:52:49+08:00 ] 58.62.252.222 /index.php/Index/Index/runChat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000780s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.001052s ]
+SQL: SELECT * FROM `qq_content` WHERE ( (user_id=1 and pid=29) or (user_id=29 and pid=1) ) ORDER BY time  [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000835s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000433s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000566s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000452s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000474s ]
+
+[ 2015-09-11T23:52:49+08:00 ] 58.62.252.222 /index.php/Index/Index/runChat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.001539s ]
+SQL: SELECT * FROM `qq_content` WHERE ( (user_id=1 and pid=29) or (user_id=29 and pid=1) ) ORDER BY time  [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001915s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000603s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000554s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000432s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000453s ]
+
+[ 2015-09-11T23:52:50+08:00 ] 58.62.252.222 /index.php/Index/Index/runChat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000838s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.001125s ]
+SQL: SELECT * FROM `qq_content` WHERE ( (user_id=1 and pid=29) or (user_id=29 and pid=1) ) ORDER BY time  [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000881s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000528s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000520s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000441s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000465s ]
+
+[ 2015-09-11T23:52:50+08:00 ] 58.62.252.222 /index.php/Index/Index/runChat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000959s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.001108s ]
+SQL: INSERT INTO `qq_content` (`user_id`,`pid`,`content`,`time`) VALUES (1,29,'fdsfdsfd',1441986770) [ RunTime:0.005060s ]
+SQL: SELECT * FROM `qq_content` WHERE ( (user_id=1 and pid=29) or (user_id=29 and pid=1) ) ORDER BY time  [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000901s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000425s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000472s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000486s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000478s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.002401s ]
+
+[ 2015-09-11T23:52:50+08:00 ] 58.62.252.222 /index.php/Index/Index/runChat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000826s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.001039s ]
+SQL: SELECT * FROM `qq_content` WHERE ( (user_id=1 and pid=29) or (user_id=29 and pid=1) ) ORDER BY time  [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000922s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000471s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000499s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000483s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000501s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000436s ]
+
+[ 2015-09-11T23:52:51+08:00 ] 58.62.252.222 /index.php/Index/Index/runChat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000790s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.000980s ]
+SQL: SELECT * FROM `qq_content` WHERE ( (user_id=1 and pid=29) or (user_id=29 and pid=1) ) ORDER BY time  [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000792s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000464s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000397s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000438s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000404s ]
+
+[ 2015-09-11T23:52:51+08:00 ] 58.62.252.222 /index.php/Index/Index/runChat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000776s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.001041s ]
+SQL: SELECT * FROM `qq_content` WHERE ( (user_id=1 and pid=29) or (user_id=29 and pid=1) ) ORDER BY time  [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000799s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000429s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.002086s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000468s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000390s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000399s ]
+
+[ 2015-09-11T23:52:52+08:00 ] 58.62.252.222 /index.php/Index/Index/dialog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000782s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001128s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000801s ]
+SQL: SELECT `user_name`,`style_name`,`logo` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.000851s ]
+SQL: SELECT count(*) num FROM `qq_relation` WHERE ( friend_id=1 and status=0 ) LIMIT 1   [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM qq_content q1 [ RunTime:0.000460s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'q1' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_content q1
+SQL: SELECT q1.id,q1.user_id,q1.pid,q1.content,q1.time FROM qq_content q1 inner join ( SELECT `pid`,MAX(time) AS t FROM `qq_content` WHERE ( user_id=1 ) GROUP BY pid  ) AS q2 ON q1.time=q2.t AND q1.pid=q2.pid  [ RunTime:0.001344s ]
+SQL: SELECT q1.id,q1.user_id,q1.pid,q1.content,q1.time FROM qq_content q1 inner join ( SELECT `user_id`,MAX(time) AS t FROM `qq_content` WHERE ( pid=1 ) GROUP BY user_id  ) AS q2 ON q1.time=q2.t AND q1.user_id=q2.user_id  [ RunTime:0.000923s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000459s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=1 AND friend_id=29 ) LIMIT 1   [ RunTime:0.000429s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000446s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=22 ) LIMIT 1   [ RunTime:0.000476s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=1 AND friend_id=22 ) LIMIT 1   [ RunTime:0.000442s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000453s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.000464s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=1 AND friend_id=2 ) LIMIT 1   [ RunTime:0.000452s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000463s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=7 ) LIMIT 1   [ RunTime:0.000490s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=1 AND friend_id=7 ) LIMIT 1   [ RunTime:0.000463s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000482s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=3 ) LIMIT 1   [ RunTime:0.000475s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=1 AND friend_id=3 ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000433s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=6 ) LIMIT 1   [ RunTime:0.000457s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=1 AND friend_id=6 ) LIMIT 1   [ RunTime:0.000428s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000443s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009738s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000466s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000402s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000290s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001877s ]
+NOTIC: [8] Constant THEME_NAME already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005293s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002310s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000112s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000042s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000010s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005832s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000643s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2015-09-11T23:56:15+08:00 ] 58.62.252.222 /index.php/Index/Login/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001080s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001140s ]
+SQL: UPDATE `qq_user` SET `logout_time`=1441986975 WHERE ( `user_id` = 1 ) [ RunTime:0.011160s ]
+
+[ 2015-09-11T23:56:15+08:00 ] 58.62.252.222 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000769s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007980s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000388s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000370s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000255s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001683s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000574s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2015-09-11T23:56:17+08:00 ] 58.62.252.222 /index.php/Index/Login/qq_login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000754s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /data/home/qxu1591180029/htdocs/Class/Connect2.0/API/qqConnectAPI.php 第 2 行.
+
+[ 2015-09-11T23:56:35+08:00 ] 58.62.252.222 /index.php/Index/Login/callback?code=C1DC45DEB1F16851D57CFD0C5C9981C5&state=0e5149fc68d56fa5c188212e3fb9946b
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001052s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /data/home/qxu1591180029/htdocs/Class/Connect2.0/API/qqConnectAPI.php 第 2 行.
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001120s ]
+SQL: SELECT * FROM `qq_user` WHERE ( qq_openid="37CA14FCEC5D8A3A0946D5E89DAAE1CB" ) LIMIT 1   [ RunTime:0.000678s ]
+SQL: UPDATE `qq_user` SET `login_time`=1441986995 WHERE ( user_id=29 ) [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007462s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000371s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000402s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000288s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001734s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000583s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2015-09-11T23:56:36+08:00 ] 58.62.252.222 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000818s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM qq_user u [ RunTime:0.000663s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_user u
+SQL: SHOW COLUMNS FROM qq_relation r [ RunTime:0.000496s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'r' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_relation r
+SQL: SELECT u.user_name,u.logo,u.style_name,r.friend_id,r.remark,r.group_name FROM qq_user u LEFT JOIN qq_relation r on u.user_id=r.friend_id WHERE ( r.user_id=29 AND status=1 AND (u.user_name like '%%' OR r.remark like '%%') )  [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001128s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000983s ]
+SQL: SELECT `user_name`,`style_name`,`logo` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.000854s ]
+SQL: SELECT count(*) num FROM `qq_relation` WHERE ( friend_id=29 and status=0 ) LIMIT 1   [ RunTime:0.000631s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016487s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000515s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000442s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000374s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002135s ]
+NOTIC: [8] Constant THEME_NAME already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006389s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002562s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000150s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000046s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000014s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006921s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000681s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000754s ]
+

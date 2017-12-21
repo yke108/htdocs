@@ -1,0 +1,81 @@
+[ 2016-08-26T17:00:55+08:00 ] 58.247.206.143 /weixin/index.php?signature=642a94c00494a9802dec40c00bd4607d25a94f8f&timestamp=1472202056&nonce=1141329688&openid=ogCNcwXvmEDDaT7u-ANJ4Ju5YvVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010143s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id='ogCNcwXvmEDDaT7u-ANJ4Ju5YvVA' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wx_action_log` [ RunTime:0.0010s ]
+SQL: INSERT INTO `wx_action_log` (`user_id`,`act_code`,`value`,`add_time`) VALUES ('13','2048','5','1472202055') [ RunTime:0.0005s ]
+SQL: UPDATE `wx_user_info` SET `credit`='20' WHERE ( user_id=13 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013283s ]
+
+[ 2016-08-26T17:00:59+08:00 ] 58.247.206.148 /weixin/index.php?signature=f7414956fbf67b2936678e4ed01593cfbdb48235&timestamp=1472202060&nonce=1801916704&openid=ogCNcwXvmEDDaT7u-ANJ4Ju5YvVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id='ogCNcwXvmEDDaT7u-ANJ4Ju5YvVA' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wx_action_log` [ RunTime:0.0012s ]
+SQL: INSERT INTO `wx_action_log` (`user_id`,`act_code`,`value`,`add_time`) VALUES ('13','五子棋','5','1472202059') [ RunTime:0.0005s ]
+SQL: UPDATE `wx_user_info` SET `credit`='25' WHERE ( user_id=13 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2016-08-26T17:01:02+08:00 ] 58.247.206.156 /weixin/index.php?signature=c32039772d5699c956811bf7226c487b68f3c3c4&timestamp=1472202063&nonce=1701314629&openid=ogCNcwXvmEDDaT7u-ANJ4Ju5YvVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id='ogCNcwXvmEDDaT7u-ANJ4Ju5YvVA' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wx_action_log` [ RunTime:0.0015s ]
+SQL: INSERT INTO `wx_action_log` (`user_id`,`act_code`,`value`,`add_time`) VALUES ('13','贪吃蛇','5','1472202062') [ RunTime:0.0008s ]
+SQL: UPDATE `wx_user_info` SET `credit`='30' WHERE ( user_id=13 ) [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-08-26T17:01:42+08:00 ] 58.247.206.158 /weixin/index.php?signature=a03f0edf0523b78201130563a8a84bf3e763c358&timestamp=1472202103&nonce=332734040&openid=ogCNcwXvmEDDaT7u-ANJ4Ju5YvVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id='ogCNcwXvmEDDaT7u-ANJ4Ju5YvVA' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wx_action_log` [ RunTime:0.0010s ]
+SQL: INSERT INTO `wx_action_log` (`user_id`,`act_code`,`value`,`add_time`) VALUES ('13','碰碰熊','5','1472202102') [ RunTime:0.0007s ]
+SQL: UPDATE `wx_user_info` SET `credit`='35' WHERE ( user_id=13 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2016-08-26T17:02:06+08:00 ] 58.247.206.153 /weixin/index.php?signature=85e620ad62fd4369b09d131c4779d79740486f00&timestamp=1472202127&nonce=2094584954&openid=ogCNcwXvmEDDaT7u-ANJ4Ju5YvVA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id='ogCNcwXvmEDDaT7u-ANJ4Ju5YvVA' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wx_action_log` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wx_action_log` WHERE ( user_id=13 )  [ RunTime:0.0006s ]
+SQL: INSERT INTO `wx_action_log` (`user_id`,`act_code`,`value`,`add_time`) VALUES ('13','查询个人信息','0','1472202126') [ RunTime:0.0006s ]
+SQL: UPDATE `wx_user_info` SET `credit`='35' WHERE ( user_id=13 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+

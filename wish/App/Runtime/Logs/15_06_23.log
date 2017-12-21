@@ -1,0 +1,818 @@
+[ 2015-06-23T00:07:51+08:00 ] 127.0.0.1 /wish4/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.019825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019998s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.091604s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.021837s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.212036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.212197s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.025564s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.055410s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007440s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.017239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.106054s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.026595s ]
+INFO: [ view_end ] --END-- [ RunTime:0.026723s ]
+
+[ 2015-06-23T00:08:04+08:00 ] 127.0.0.1 /wish4/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.016320s ]
+INFO: [ route_check ] --END-- [ RunTime:0.016490s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006056s ]
+
+[ 2015-06-23T00:08:05+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.012980s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013160s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053649s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003972s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007103s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003486s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022111s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007811s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007938s ]
+
+[ 2015-06-23T00:08:05+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003835s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003999s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011176s ]
+
+[ 2015-06-23T00:08:07+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/verify/0.0071034180000424385
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001642s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001809s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+
+[ 2015-06-23T00:08:08+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/verify/0.7950605982914567
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001337s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+
+[ 2015-06-23T00:08:15+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001355s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.027962s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.017148s ]
+SQL: UPDATE `hd_user` SET `logintime`=1434989295,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.011230s ]
+
+[ 2015-06-23T00:08:15+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001342s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+
+[ 2015-06-23T00:08:16+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001326s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034141s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003766s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003199s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003119s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013922s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003549s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003694s ]
+
+[ 2015-06-23T00:08:16+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001395s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+
+[ 2015-06-23T00:08:24+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001430s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001593s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004814s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.003568s ]
+SQL: UPDATE `hd_user` SET `logintime`=1434989304,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.001257s ]
+
+[ 2015-06-23T00:08:24+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001399s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+
+[ 2015-06-23T00:08:24+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001332s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014753s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000859s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001118s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000835s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000966s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004158s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001299s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001422s ]
+
+[ 2015-06-23T00:08:25+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003014s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003183s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+
+[ 2015-06-23T00:11:33+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004951s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005121s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003686s ]
+
+[ 2015-06-23T00:13:09+08:00 ] 127.0.0.1 /wish4/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007029s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007196s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004120s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.003910s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.002468s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041773s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003769s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003573s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003502s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014986s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008039s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008171s ]
+
+[ 2015-06-23T00:13:14+08:00 ] 127.0.0.1 /wish4/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001718s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001886s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+
+[ 2015-06-23T00:13:14+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001407s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001643s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019731s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000899s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000871s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000746s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000982s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003853s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001417s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001542s ]
+
+[ 2015-06-23T00:13:14+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001454s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001616s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+
+[ 2015-06-23T00:13:24+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003934s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004102s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003679s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005488s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001381s ]
+SQL: UPDATE `hd_user` SET `logintime`=1434989604,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.000713s ]
+
+[ 2015-06-23T00:13:24+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001323s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+
+[ 2015-06-23T00:13:24+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001423s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027515s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003203s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005489s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005284s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020474s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005805s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005929s ]
+
+[ 2015-06-23T00:13:25+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002288s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002460s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+
+[ 2015-06-23T00:14:41+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001379s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001543s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017531s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002268s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005935s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005522s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021483s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006025s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006150s ]
+
+[ 2015-06-23T00:14:41+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005418s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005593s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007125s ]
+
+[ 2015-06-23T00:14:51+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001343s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005390s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001263s ]
+SQL: UPDATE `hd_user` SET `logintime`=1434989691,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.000717s ]
+
+[ 2015-06-23T00:14:51+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001437s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001601s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+
+[ 2015-06-23T00:14:51+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001531s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001698s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035802s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003479s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003454s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003212s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014950s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003598s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003720s ]
+
+[ 2015-06-23T00:14:52+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001377s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001542s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002463s ]
+
+[ 2015-06-23T00:19:04+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006174s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006347s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004175s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.187749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.187912s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.014216s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.018941s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006262s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.008287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.048153s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009260s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009526s ]
+
+[ 2015-06-23T00:19:05+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008020s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008228s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004386s ]
+
+[ 2015-06-23T00:19:12+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001630s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004775s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.002923s ]
+SQL: UPDATE `hd_user` SET `logintime`=1434989952,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.001964s ]
+
+[ 2015-06-23T00:19:12+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001636s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+
+[ 2015-06-23T00:19:12+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001406s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035728s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003607s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003362s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003055s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013764s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003862s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003986s ]
+
+[ 2015-06-23T00:19:12+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001681s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001851s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+
+[ 2015-06-23T00:19:18+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001424s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001587s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005243s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = '' ) LIMIT 1   [ RunTime:0.002218s ]
+NOTIC: [8] Use of undefined constant 帐号或者密码不正确 - assumed '帐号或者密码不正确' D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029750s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000952s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000933s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000681s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003989s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001211s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001332s ]
+
+[ 2015-06-23T00:19:21+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001387s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020060s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001384s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000927s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001315s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005904s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001783s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001908s ]
+
+[ 2015-06-23T00:20:11+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007610s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007944s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007080s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004059s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.002222s ]
+SQL: UPDATE `hd_user` SET `logintime`=1434990011,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.000697s ]
+
+[ 2015-06-23T00:20:11+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006041s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006212s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005871s ]
+
+[ 2015-06-23T00:20:11+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006275s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006448s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005722s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048382s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005623s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005946s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005573s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023712s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005909s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006092s ]
+
+[ 2015-06-23T00:20:12+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018207s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018382s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.012029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012284s ]
+
+[ 2015-06-23T00:20:22+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008285s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008492s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010200s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.059496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059664s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.026543s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.017225s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006772s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.065986s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.022720s ]
+INFO: [ view_end ] --END-- [ RunTime:0.022852s ]
+
+[ 2015-06-23T00:20:22+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006918s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007088s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007949s ]
+
+[ 2015-06-23T00:20:28+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003882s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004098s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003971s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036876s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003582s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003367s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003188s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013955s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003708s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003850s ]
+
+[ 2015-06-23T00:20:30+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001417s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001584s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017286s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000843s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000909s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000683s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003723s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001210s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2015-06-23T00:20:38+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007013s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007184s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006210s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049883s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006292s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005628s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005819s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024280s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006267s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006435s ]
+
+[ 2015-06-23T00:20:41+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006202s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006738s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050385s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006797s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007270s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008444s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.027165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.050416s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.014107s ]
+INFO: [ view_end ] --END-- [ RunTime:0.014235s ]
+
+[ 2015-06-23T00:24:26+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005864s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006065s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007159s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\wish4\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.054369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054537s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007835s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005154s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004852s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025747s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005455s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005582s ]
+
+[ 2015-06-23T00:24:26+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003957s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004201s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003900s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\wish4\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-06-23T00:24:34+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001543s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001706s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004337s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\wish4\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035400s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003616s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003799s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003120s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014571s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004050s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004179s ]
+
+[ 2015-06-23T00:24:36+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001790s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001957s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\wish4\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016520s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000856s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000906s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004069s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\wish4\App\Lib\Action\Admin\LoginAction.class.php:5) D:\wamp\www\wish4\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001184s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2015-06-23T00:24:41+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/verify/0.8819655266124755
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001658s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\wish4\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-06-23T00:24:50+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001366s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001532s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\wish4\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.017348s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.002251s ]
+SQL: UPDATE `hd_user` SET `logintime`=1434990290,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.001555s ]
+
+[ 2015-06-23T00:24:51+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001338s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\wish4\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025755s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000858s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001003s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000837s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004024s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001208s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001327s ]
+
+[ 2015-06-23T00:24:51+08:00 ] 127.0.0.1 /wish4/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001670s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001836s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\wish4\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026874s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007648s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000851s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005597s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016212s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009444s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009570s ]
+
+[ 2015-06-23T00:24:55+08:00 ] 127.0.0.1 /wish4/index.php/Admin/MsgManage/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001320s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\wish4\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.005018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_wish` LIMIT 1   [ RunTime:0.001932s ]
+SQL: SELECT * FROM `hd_wish` ORDER BY time DESC LIMIT 0,10   [ RunTime:0.014128s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027023s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001882s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001612s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001663s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008075s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002043s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002168s ]
+

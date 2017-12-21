@@ -1,0 +1,37 @@
+<?php if (!defined('THINK_PATH')) exit();?><html xmlns="http://www.w3.org/1999/xhtml">
+	<body>
+		<form action="<?php echo U('Admin/Rbac/addRoleHandle');?>" method='post'>
+		<table>
+			<tr>
+				<td colspan='2' align='center'>
+					添加角色
+				</th>
+			</tr>
+			<tr>
+				<th align='right'>角色名称:</th>
+				<th align="left">
+					<input type='text' name='name' />
+				</th>
+			</tr>
+			<tr>
+				<th align='right'>角色描述:</th>
+				<th align="center">
+					<input type='text' name='remark' />
+				</th>
+			</tr>
+			<tr>
+				<th>是否开启:</th>
+				<th align="left">
+					<input type='radio' name='status' value='1' checked='checked' />&nbsp开启&nbsp
+					<input type='radio' name='status' value='0'>&nbsp关闭
+				</th>
+			</tr>
+			<tr>
+				<td colspan='2' align='center'>
+					<input type='submit' value='保存添加' />
+				</th>
+			</tr>
+		</table>
+		</form>
+	</body>
+</html>

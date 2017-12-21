@@ -1,0 +1,27 @@
+[ 2016-12-05T20:18:34+08:00 ] 58.247.206.148 /weixin/index.php?signature=03f4bceb44da05a210ee96438bde78b5e5caa864&timestamp=1480940312&nonce=919473542&openid=ogF-_uFpYOH6eWMn3-e9H_IYi-pY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018813s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id = 'ogF-_uFpYOH6eWMn3-e9H_IYi-pY' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wx_user_info` (`open_id`,`status`,`add_time`,`update_time`) VALUES ('ogF-_uFpYOH6eWMn3-e9H_IYi-pY','1','1480940314','1480940314') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022462s ]
+
+[ 2016-12-05T20:18:34+08:00 ] 58.247.206.148 /weixin/index.php?signature=448128e794074be3e61d1b8ce4b744c701b7789c&timestamp=1480940313&nonce=1300158864&openid=ogF-_uFpYOH6eWMn3-e9H_IYi-pY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0012s ]
+SQL: UPDATE `wx_user_info` SET `status`='0',`update_time`='1480940314' WHERE ( open_id = 'ogF-_uFpYOH6eWMn3-e9H_IYi-pY' ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+

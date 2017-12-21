@@ -1,0 +1,2641 @@
+[ 2015-07-22T22:44:54+08:00 ] 127.0.0.1 /webqq/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015428s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T22:44:54+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004124s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004291s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.071915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072081s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.013711s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.011042s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003402s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.012264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040802s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015830s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015957s ]
+
+[ 2015-07-22T22:49:44+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003891s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004052s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005375s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.046600s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'aa' ) AND ( `password` = '4124bc0a9335c27f086f24ba207a4912' ) LIMIT 1   [ RunTime:0.013737s ]
+
+[ 2015-07-22T22:50:11+08:00 ] 127.0.0.1 /webqq/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003624s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T22:50:11+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003774s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003941s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036316s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003265s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003729s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003454s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015589s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003599s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003727s ]
+
+[ 2015-07-22T22:50:17+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004184s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004349s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003628s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004114s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'aa' ) AND ( `password` = '4124bc0a9335c27f086f24ba207a4912' ) LIMIT 1   [ RunTime:0.002975s ]
+
+[ 2015-07-22T23:00:02+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007663s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007828s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003680s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004163s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'aa' ) AND ( `password` = '4124bc0a9335c27f086f24ba207a4912' ) LIMIT 1   [ RunTime:0.002110s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056647s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003462s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005746s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003174s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016564s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003532s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003658s ]
+
+[ 2015-07-22T23:00:03+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001662s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001833s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004827s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.007414s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056354s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000907s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000857s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000681s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003903s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001278s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2015-07-22T23:00:27+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001353s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004022s ]
+SQL: UPDATE `hd_user` SET `logout_time`=1437577227 WHERE ( `id` = 1 ) [ RunTime:0.003443s ]
+
+[ 2015-07-22T23:00:27+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001398s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [8] Undefined variable: password D:\wamp\www\webqq\APP\Modules\Index\Action\LoginAction.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018136s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000821s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000825s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003827s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\webqq\APP\Modules\Index\Action\LoginAction.class.php:10) D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\webqq\APP\Modules\Index\Action\LoginAction.class.php:10) D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\webqq\APP\Modules\Index\Action\LoginAction.class.php:10) D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002071s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002195s ]
+
+[ 2015-07-22T23:00:54+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001365s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002025s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021684s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000836s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000827s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000682s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003753s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\webqq\APP\Modules\Index\Action\LoginAction.class.php:10) D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\webqq\APP\Modules\Index\Action\LoginAction.class.php:10) D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\webqq\APP\Modules\Index\Action\LoginAction.class.php:10) D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001158s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2015-07-22T23:02:06+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003838s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004003s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003611s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028930s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003430s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006491s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018947s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\webqq\APP\Modules\Index\Action\LoginAction.class.php:10) D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\webqq\APP\Modules\Index\Action\LoginAction.class.php:10) D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\webqq\APP\Modules\Index\Action\LoginAction.class.php:10) D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004906s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005036s ]
+
+[ 2015-07-22T23:02:15+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001420s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001581s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014790s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000988s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000855s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001269s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004577s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001277s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2015-07-22T23:02:20+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001389s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004187s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'aa' ) AND ( `password` = '4124bc0a9335c27f086f24ba207a4912' ) LIMIT 1   [ RunTime:0.002369s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015760s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000806s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000938s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000743s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003851s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001178s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2015-07-22T23:02:22+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001682s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001852s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002442s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005224s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.002215s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026267s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002234s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000923s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000662s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006578s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001403s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001744s ]
+
+[ 2015-07-22T23:02:23+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.003762s ]
+SQL: UPDATE `hd_user` SET `logout_time`=1437577343 WHERE ( `id` = 1 ) [ RunTime:0.002590s ]
+
+[ 2015-07-22T23:02:24+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001436s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014474s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000876s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000920s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000715s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003928s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001241s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2015-07-22T23:03:14+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001407s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019452s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000841s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000843s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000730s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000966s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003766s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001297s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2015-07-22T23:04:02+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001398s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.007579s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'aa' ) AND ( `password` = '4124bc0a9335c27f086f24ba207a4912' ) LIMIT 1   [ RunTime:0.001027s ]
+
+[ 2015-07-22T23:04:33+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003910s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004077s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003790s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028181s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003438s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003261s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003458s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013928s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003750s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003878s ]
+
+[ 2015-07-22T23:04:45+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001376s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001534s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005052s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'bb' ) AND ( `password` = '21ad0bd836b90d08f4cf640b4c298e7c' ) LIMIT 1   [ RunTime:0.002553s ]
+
+[ 2015-07-22T23:04:56+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001384s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017102s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000829s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000978s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000694s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003789s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001195s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001318s ]
+
+[ 2015-07-22T23:05:05+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001475s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001636s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004160s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'bb' ) AND ( `password` = '21ad0bd836b90d08f4cf640b4c298e7c' ) LIMIT 1   [ RunTime:0.003181s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020065s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001103s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000888s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000729s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004051s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001160s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2015-07-22T23:05:07+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001878s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002047s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001860s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004798s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.003201s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051140s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000899s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004048s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000758s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008587s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002225s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002352s ]
+
+[ 2015-07-22T23:05:09+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004680s ]
+SQL: UPDATE `hd_user` SET `logout_time`=1437577509 WHERE ( `id` = 2 ) [ RunTime:0.002976s ]
+
+[ 2015-07-22T23:05:09+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001373s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001537s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014390s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000877s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000868s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000688s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003885s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001306s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001436s ]
+
+[ 2015-07-22T23:05:19+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001441s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001603s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016926s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000832s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001198s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000733s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004153s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001195s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001316s ]
+
+[ 2015-07-22T23:05:28+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001749s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001914s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004757s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = '' ) AND ( `password` = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1   [ RunTime:0.004200s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017542s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000989s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000890s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000746s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004108s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001239s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2015-07-22T23:05:29+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001358s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004312s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.002717s ]
+NOTIC: [8] Undefined index:  username D:\wamp\www\webqq\APP\Modules\Index\Action\IndexAction.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019731s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000892s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000867s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001374s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004730s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001229s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2015-07-22T23:05:41+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001454s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001622s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004048s ]
+SQL: UPDATE `hd_user` SET `logout_time`=1437577541 WHERE ( `id` = 10 ) [ RunTime:0.002391s ]
+
+[ 2015-07-22T23:05:41+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001359s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014287s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001118s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000878s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000690s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004066s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001159s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2015-07-22T23:05:50+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001448s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004210s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'bb' ) AND ( `password` = '21ad0bd836b90d08f4cf640b4c298e7c' ) LIMIT 1   [ RunTime:0.002570s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014781s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000932s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000878s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000723s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003878s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001402s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001535s ]
+
+[ 2015-07-22T23:05:51+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001985s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002152s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.003897s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.004956s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017606s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000853s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001508s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000696s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004397s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001398s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001522s ]
+
+[ 2015-07-22T23:05:53+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001359s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001551s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004205s ]
+SQL: UPDATE `hd_user` SET `logout_time`=1437577553 WHERE ( `id` = 2 ) [ RunTime:0.003682s ]
+
+[ 2015-07-22T23:05:53+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001422s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015511s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000882s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002595s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000749s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005582s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001158s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2015-07-22T23:05:57+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001370s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.003803s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'bb' ) AND ( `password` = '21ad0bd836b90d08f4cf640b4c298e7c' ) LIMIT 1   [ RunTime:0.002625s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015780s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000987s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001815s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000714s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006738s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001564s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001692s ]
+
+[ 2015-07-22T23:05:58+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001523s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001690s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.003936s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.002510s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020611s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001072s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000887s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002612s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006093s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001233s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2015-07-22T23:05:59+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001423s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004833s ]
+SQL: UPDATE `hd_user` SET `logout_time`=1437577559 WHERE ( `id` = 2 ) [ RunTime:0.002645s ]
+
+[ 2015-07-22T23:06:00+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003762s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004098s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014869s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000995s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001125s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000767s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004220s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001319s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001447s ]
+
+[ 2015-07-22T23:06:01+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001522s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.003880s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'bb' ) AND ( `password` = '21ad0bd836b90d08f4cf640b4c298e7c' ) LIMIT 1   [ RunTime:0.002786s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014418s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000846s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001037s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000730s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003933s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001242s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2015-07-22T23:06:02+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001367s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.003862s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.002382s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036456s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000894s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002474s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000813s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005824s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003882s ]
+
+[ 2015-07-22T23:06:03+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009964s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010163s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005240s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004847s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.002279s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043810s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003736s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005075s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003150s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016821s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004951s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005083s ]
+
+[ 2015-07-22T23:06:04+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001433s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001596s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.003977s ]
+SQL: UPDATE `hd_user` SET `logout_time`=1437577564 WHERE ( `id` = 2 ) [ RunTime:0.002621s ]
+
+[ 2015-07-22T23:06:04+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002318s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002504s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025704s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001330s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000890s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001368s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006986s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001330s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001685s ]
+
+[ 2015-07-22T23:11:47+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004217s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004386s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003709s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033025s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003467s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003535s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005482s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016393s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005397s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005528s ]
+
+[ 2015-07-22T23:11:59+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001367s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.011135s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'aa' ) AND ( `password` = '4124bc0a9335c27f086f24ba207a4912' ) LIMIT 1   [ RunTime:0.007574s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021785s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001145s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000857s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000664s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004122s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001214s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2015-07-22T23:12:01+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001439s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004279s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.004051s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028064s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001077s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001127s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001049s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004724s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001561s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001701s ]
+
+[ 2015-07-22T23:12:03+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001626s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004162s ]
+SQL: UPDATE `hd_user` SET `logout_time`=1437577923 WHERE ( `id` = 1 ) [ RunTime:0.002464s ]
+
+[ 2015-07-22T23:12:03+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001376s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019167s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000842s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000866s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000678s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003669s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001144s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2015-07-22T23:12:11+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001395s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004545s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'bb' ) AND ( `password` = '21ad0bd836b90d08f4cf640b4c298e7c' ) LIMIT 1   [ RunTime:0.006314s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014205s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000926s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000907s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000822s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004060s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001232s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2015-07-22T23:12:12+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001496s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.006700s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000951s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020062s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000866s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001478s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000717s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004396s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001364s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2015-07-22T23:12:14+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001374s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.003713s ]
+SQL: UPDATE `hd_user` SET `logout_time`=1437577934 WHERE ( `id` = 2 ) [ RunTime:0.002925s ]
+
+[ 2015-07-22T23:12:14+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001413s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001577s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014667s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001248s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001119s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000862s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004805s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001321s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001446s ]
+
+[ 2015-07-22T23:12:39+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001452s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001617s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020151s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001934s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001118s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000733s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005270s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001249s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001379s ]
+
+[ 2015-07-22T23:18:51+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008545s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008715s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006196s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045891s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004067s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004181s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006456s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018502s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004730s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004858s ]
+
+[ 2015-07-22T23:18:53+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005037s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005200s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002387s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004128s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'bb' ) AND ( `password` = '21ad0bd836b90d08f4cf640b4c298e7c' ) LIMIT 1   [ RunTime:0.002672s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017772s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002286s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000899s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005707s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010252s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001269s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2015-07-22T23:18:54+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004971s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005176s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002432s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004006s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.002848s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023359s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002451s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001048s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.029292s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.034567s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001187s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001311s ]
+
+[ 2015-07-22T23:18:56+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006115s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006285s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002578s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004562s ]
+SQL: UPDATE `hd_user` SET `logout_time`=1437578336 WHERE ( `id` = 2 ) [ RunTime:0.003259s ]
+
+[ 2015-07-22T23:18:56+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004982s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005149s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002497s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017891s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002362s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000862s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007414s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012274s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001171s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2015-07-22T23:24:30+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003790s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003958s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003659s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035771s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004168s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005184s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004837s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020203s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005467s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005595s ]
+
+[ 2015-07-22T23:27:34+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005802s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006450s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004693s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035711s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004263s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003293s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004077s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017244s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003668s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004264s ]
+
+[ 2015-07-22T23:29:01+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004786s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004956s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003883s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038899s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003581s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004326s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003973s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017569s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005020s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005148s ]
+
+[ 2015-07-22T23:29:49+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004360s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004530s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003687s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046466s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005478s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005108s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005596s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020999s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003963s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004091s ]
+
+[ 2015-07-22T23:29:52+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001461s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020156s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000920s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001104s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000754s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004355s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001576s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001701s ]
+
+[ 2015-07-22T23:32:10+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003969s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004273s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004228s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034495s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004371s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004449s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004937s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018678s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003719s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003859s ]
+
+[ 2015-07-22T23:34:00+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001531s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001697s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020700s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001306s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001062s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001501s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005235s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002176s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002306s ]
+
+[ 2015-07-22T23:34:16+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005273s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005471s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005862s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032082s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003708s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003477s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003751s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014788s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003957s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004084s ]
+
+[ 2015-07-22T23:35:29+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001425s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.003954s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'bb' ) AND ( `password` = '21ad0bd836b90d08f4cf640b4c298e7c' ) LIMIT 1   [ RunTime:0.003306s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016296s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001003s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000909s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000674s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005155s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001356s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2015-07-22T23:35:30+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001635s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005569s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.003911s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.002466s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019538s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001269s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000873s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000684s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004306s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001171s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2015-07-22T23:35:32+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001505s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001670s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.003888s ]
+SQL: UPDATE `hd_user` SET `logout_time`=1437579332 WHERE ( `id` = 2 ) [ RunTime:0.002911s ]
+
+[ 2015-07-22T23:35:32+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002047s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002218s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026587s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000887s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002147s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000737s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008232s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001697s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001827s ]
+
+[ 2015-07-22T23:37:13+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003940s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004124s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003689s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034541s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005358s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005047s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004877s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021614s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005919s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006049s ]
+
+[ 2015-07-22T23:37:19+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001360s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002081s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.007694s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'aa' ) AND ( `password` = '4124bc0a9335c27f086f24ba207a4912' ) LIMIT 1   [ RunTime:0.000700s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014537s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001026s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000901s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000679s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004073s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001197s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001319s ]
+
+[ 2015-07-22T23:37:20+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001421s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004367s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.035030s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032053s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000955s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000905s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000770s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004219s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002015s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002143s ]
+
+[ 2015-07-22T23:37:20+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.053608s ]
+INFO: [ route_check ] --END-- [ RunTime:0.053779s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004243s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004384s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.001897s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033949s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005099s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003601s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003729s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016429s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015191s ]
+
+[ 2015-07-22T23:37:22+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001459s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001622s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004005s ]
+SQL: UPDATE `hd_user` SET `logout_time`=1437579442 WHERE ( `id` = 1 ) [ RunTime:0.002466s ]
+
+[ 2015-07-22T23:37:22+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001388s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016346s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000867s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000890s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001294s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000988s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004405s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001220s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2015-07-22T23:38:11+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001407s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015416s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000954s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000931s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000683s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004003s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001151s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001274s ]
+
+[ 2015-07-22T23:40:03+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004657s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004822s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004220s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037025s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004348s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004494s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003226s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017253s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004203s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004391s ]
+
+[ 2015-07-22T23:40:38+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001399s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015078s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000868s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000851s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001064s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004161s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001140s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2015-07-22T23:40:48+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001407s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001568s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016573s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000844s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000841s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000851s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003856s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001137s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2015-07-22T23:42:49+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005465s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005635s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004758s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035095s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006610s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004971s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005671s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025219s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006335s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006523s ]
+
+[ 2015-07-22T23:42:55+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002338s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004147s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'aa' ) AND ( `password` = '4124bc0a9335c27f086f24ba207a4912' ) LIMIT 1   [ RunTime:0.003252s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015472s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000875s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000863s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000704s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004056s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001244s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2015-07-22T23:42:57+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001655s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001823s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004119s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.004088s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018581s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000923s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000846s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003947s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001169s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2015-07-22T23:42:58+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001789s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.003826s ]
+SQL: UPDATE `hd_user` SET `logout_time`=1437579778 WHERE ( `id` = 1 ) [ RunTime:0.002330s ]
+
+[ 2015-07-22T23:42:58+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001444s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017244s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001515s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001555s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000755s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005738s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001211s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001333s ]
+
+[ 2015-07-22T23:49:54+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004250s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004417s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003629s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:50:09+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001442s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:50:09+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Login/runLogin.html.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001366s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001532s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:50:38+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001394s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:50:46+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Login/runLogin.html.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001468s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002483s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:50:48+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001400s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:50:48+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001877s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002091s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:50:48+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Login/runLogin.html.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001709s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001877s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:51:15+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001441s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:51:16+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001378s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002290s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:51:16+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index/Login/runLogin.html.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001754s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001921s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:52:01+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index/Login/runLogin.html.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003973s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004351s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:52:03+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001421s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:52:03+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001390s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:52:03+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index/Login/runLogin.html.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001403s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:52:16+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001459s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:52:16+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001365s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:52:16+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index/Login/runLogin.html.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002317s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002489s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:52:21+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001597s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001783s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:52:21+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001912s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002079s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:52:21+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index/Login/runLogin.html.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001360s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:52:22+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002316s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002814s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003878s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:52:22+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index/Login/runLogin.html.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001581s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002183s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:52:27+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index/Login/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001528s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001893s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:52:43+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index/Login/runLogin.html.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001998s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002476s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:52:43+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index/Login/runLogin.html.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001402s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:52:44+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index/Login/runLogin.html.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002507s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002676s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:52:50+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001630s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001838s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:53:14+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001478s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:53:15+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003289s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003454s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:53:15+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001380s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001543s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:53:24+08:00 ] 127.0.0.1 /webqq/index.php/webqq/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001363s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001529s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:53:31+08:00 ] 127.0.0.1 /webqq/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001475s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001638s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:53:31+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001383s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029769s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004149s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003541s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003882s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016170s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003772s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003927s ]
+
+[ 2015-07-22T23:53:38+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001365s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:53:38+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002982s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003174s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020121s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000832s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000865s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000691s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001971s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004725s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001906s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002034s ]
+
+[ 2015-07-22T23:53:41+08:00 ] 127.0.0.1 /webqq/index.php/webqq/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001383s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:54:06+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004782s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004984s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003734s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:54:06+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001438s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001602s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:54:07+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001367s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001545s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:54:12+08:00 ] 127.0.0.1 /webqq/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001346s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:54:12+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001377s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:54:12+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001996s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014463s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000832s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000869s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000859s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003976s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001207s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2015-07-22T23:54:15+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001351s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:54:37+08:00 ] 127.0.0.1 /webqq/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:54:37+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001376s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001542s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:54:37+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002414s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002586s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013950s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000830s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000880s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000690s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003934s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001187s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2015-07-22T23:54:39+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002360s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:54:56+08:00 ] 127.0.0.1 /webqq/index.php/webqq/index.php/Index/Login/runLogin.html.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002624s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002785s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:webqq
+
+[ 2015-07-22T23:54:57+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001643s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001804s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:54:57+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001842s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001863s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:01+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001560s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001718s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:01+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001343s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001497s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:01+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001325s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014614s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000819s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000997s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000925s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004100s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001463s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001590s ]
+
+[ 2015-07-22T23:55:05+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001397s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:05+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002104s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:05+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001741s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001899s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018388s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003090s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000947s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000760s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009358s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001536s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001665s ]
+
+[ 2015-07-22T23:55:07+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001766s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001924s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:07+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001330s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:07+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001386s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:07+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002259s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002417s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026780s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000830s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000831s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000756s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003730s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001135s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2015-07-22T23:55:11+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001870s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002032s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:11+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001421s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:11+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001745s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001904s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016042s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000800s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000957s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001246s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005445s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001165s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2015-07-22T23:55:15+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001855s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002013s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:15+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001308s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002450s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:15+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001418s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013402s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000857s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000844s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000648s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003986s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001396s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2015-07-22T23:55:20+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001541s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001749s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:20+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002893s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003057s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:20+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001328s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014217s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000808s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000845s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000692s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003636s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001136s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001251s ]
+
+[ 2015-07-22T23:55:24+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001393s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001550s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:24+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001315s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001469s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:24+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001362s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016562s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000830s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000829s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000657s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003786s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001239s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001365s ]
+
+[ 2015-07-22T23:55:28+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001326s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001479s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:28+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003216s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003491s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:28+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001329s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013481s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000814s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000837s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000846s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003827s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001280s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001404s ]
+
+[ 2015-07-22T23:55:32+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001404s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:32+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001624s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:32+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001387s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001542s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026016s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003174s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003218s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003361s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013481s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003547s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003670s ]
+
+[ 2015-07-22T23:55:36+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001332s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:37+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001327s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:37+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001327s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001497s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014148s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000824s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000819s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003585s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001135s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2015-07-22T23:55:41+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001394s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:41+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001328s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-22T23:55:41+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001623s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017484s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000931s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001228s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000703s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004406s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001505s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001630s ]
+

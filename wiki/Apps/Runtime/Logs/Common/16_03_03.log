@@ -1,0 +1,36 @@
+[ 2016-03-03T13:49:44+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/index.php/thinkphp_3.2.3_full/index.php/Home/Main/article_add.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+ERR: 无法加载模块:Thinkphp_3.2.3_full
+
+[ 2016-03-03T13:49:47+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/index.php/thinkphp_3.2.3_full/index.php/Home/Main/article_add.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+ERR: 无法加载模块:Thinkphp_3.2.3_full
+
+[ 2016-03-03T13:49:50+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/index.php/thinkphp_3.2.3_full/index.php/Home/Main/article_add.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+ERR: 无法加载模块:Thinkphp_3.2.3_full
+
+[ 2016-03-03T13:50:06+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/index.php/thinkphp_3.2.3_full/index.php/Home/Main/article_add.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+ERR: 无法加载模块:Thinkphp_3.2.3_full
+
+[ 2016-03-03T13:50:59+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/index.php/thinkphp_3.2.3_full/index.php/Home/Main/article_add.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+ERR: 无法加载模块:Thinkphp_3.2.3_full
+
+[ 2016-03-03T13:51:06+08:00 ] 127.0.0.1 /thinkphp_3.2.3_full/index.php/thinkphp_3.2.3_full/index.php/Home/Main/article_add.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+ERR: 无法加载模块:Thinkphp_3.2.3_full
+

@@ -1,0 +1,3274 @@
+[ 2015-07-28T00:03:19+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006137s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006644s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009362s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.006447s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003273s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043162s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005659s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006128s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006009s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025534s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016457s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.028476s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000131s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000089s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019568s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\webqq\APP\Modules\Index\Action\IndexAction.class.php:72) D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\webqq\APP\Modules\Index\Action\IndexAction.class.php:72) D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\webqq\APP\Modules\Index\Action\IndexAction.class.php:72) D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006370s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006488s ]
+
+[ 2015-07-28T00:26:07+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011696s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011915s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.030389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030570s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-28T00:26:07+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002317s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002490s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031606s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004752s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003516s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003494s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016971s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003862s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003991s ]
+
+[ 2015-07-28T00:26:20+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003823s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003983s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006948s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005138s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_name` = '柯梓晴' ) AND ( `password` = '6b9260b1e02041a665d4e4a5117cfe16' ) LIMIT 1   [ RunTime:0.003715s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042841s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006602s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005752s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005410s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024701s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006721s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006852s ]
+
+[ 2015-07-28T00:26:21+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011743s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011939s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.036963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037117s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005205s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003182s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_name` LIKE '%%' )  [ RunTime:0.000491s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.082147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082322s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007836s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009852s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.012107s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039324s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027959s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.043430s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000305s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000093s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.032239s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.014304s ]
+INFO: [ view_end ] --END-- [ RunTime:0.014456s ]
+
+[ 2015-07-28T00:26:22+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001353s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006358s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004952s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002318s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000974s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049264s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006932s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007609s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004716s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025937s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017118s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.029461s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000171s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000093s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020812s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011550s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011689s ]
+
+[ 2015-07-28T00:26:39+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001419s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001581s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006024s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004488s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002595s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_name` LIKE '%%' )  [ RunTime:0.000756s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048758s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006728s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006273s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004959s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024165s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018567s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.027525s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000168s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.022104s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005979s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006106s ]
+
+[ 2015-07-28T00:26:41+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001382s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006478s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004771s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.008047s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000804s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.083448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083626s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005645s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005745s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004742s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.016825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.033418s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019885s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.036587s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000173s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000093s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.023223s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011222s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011400s ]
+
+[ 2015-07-28T00:27:29+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001479s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006480s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004848s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003199s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063101s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006160s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005623s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004316s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022895s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016959s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.025759s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000171s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019986s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006737s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006866s ]
+
+[ 2015-07-28T00:27:42+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003762s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003931s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003697s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005053s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.004588s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034886s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006088s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003252s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005615s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021259s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015120s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.025441s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000275s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000098s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019450s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007817s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007948s ]
+
+[ 2015-07-28T00:28:49+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004405s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004583s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003821s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005054s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.001398s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000307s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030606s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003517s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003333s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003243s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014001s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012892s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.016894s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000178s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000094s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016027s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005767s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005899s ]
+
+[ 2015-07-28T00:29:48+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003694s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003860s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006507s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004540s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.004474s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000668s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.055484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055815s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006065s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005840s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005594s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023972s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016854s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.027132s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000173s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020169s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009334s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009551s ]
+
+[ 2015-07-28T00:29:59+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001406s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001615s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002101s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004844s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.001371s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000422s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019150s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000895s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001775s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001113s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007758s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011972s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.009177s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000171s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013562s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009995s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010128s ]
+
+[ 2015-07-28T00:31:15+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006301s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006525s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007851s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.006681s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.004826s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000594s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033435s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003469s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003957s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003049s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014237s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012997s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017047s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000158s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015964s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003796s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003920s ]
+
+[ 2015-07-28T00:32:21+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004380s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004548s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004288s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005550s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003882s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000475s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044975s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007287s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003377s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004570s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021604s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015980s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.026638s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000203s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000094s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.021186s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003878s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-07-28T00:32:38+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006248s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006418s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.021130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021302s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004920s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.010419s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.070975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071147s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.017055s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005682s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005295s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.034727s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028072s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.037754s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000159s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.031268s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007183s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007340s ]
+
+[ 2015-07-28T00:33:47+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004853s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005022s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003982s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004465s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.004664s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038450s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007069s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004876s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004728s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020613s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011499s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.023506s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000161s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014558s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004008s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004134s ]
+
+[ 2015-07-28T00:33:56+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001391s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007676s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004543s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.004754s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000410s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051559s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006049s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009200s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.013450s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.035877s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016935s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.039295s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000160s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000020s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020534s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007831s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007962s ]
+
+[ 2015-07-28T00:34:30+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003818s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003985s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003601s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004417s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002528s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000579s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032515s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006174s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003234s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003574s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016862s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013856s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.019962s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000165s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017070s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004328s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004453s ]
+
+[ 2015-07-28T00:36:02+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005873s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006053s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003559s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004354s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003196s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000562s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030694s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003534s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003758s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004682s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016054s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011970s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.018920s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000160s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015002s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003783s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003907s ]
+
+[ 2015-07-28T00:36:41+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008587s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003829s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004625s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002300s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000343s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034085s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006046s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003745s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003647s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017868s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011004s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.021110s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000160s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000093s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014412s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004790s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004914s ]
+
+[ 2015-07-28T00:37:29+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005601s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005770s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010099s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005473s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.008807s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.001431s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075415s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005779s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005834s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006221s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024433s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017847s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.028193s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000257s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000113s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000023s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.021781s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006669s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006800s ]
+
+[ 2015-07-28T00:37:40+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001406s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004579s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.015133s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000807s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047011s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.008298s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000895s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011592s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019019s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.013326s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000162s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020908s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001502s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001632s ]
+
+[ 2015-07-28T00:38:50+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001622s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001790s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007179s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004719s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003579s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000280s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047474s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005486s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006826s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004166s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023343s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017305s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.026160s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000165s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020286s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006128s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006250s ]
+
+[ 2015-07-28T00:39:19+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005010s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005190s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009750s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004739s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002879s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.005145s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042249s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003343s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003292s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003012s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013959s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011650s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.016721s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000162s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014573s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003918s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004042s ]
+
+[ 2015-07-28T00:39:26+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007642s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007743s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005416s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.008703s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000216s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030815s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006014s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003244s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003057s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016177s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011537s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.018973s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000163s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014496s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003947s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004070s ]
+
+[ 2015-07-28T00:39:44+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003724s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003909s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005907s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005607s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.005298s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000674s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069152s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.017365s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.014377s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007865s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.012275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.052298s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028123s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.057280s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000167s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000093s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.033293s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007564s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007688s ]
+
+[ 2015-07-28T00:39:50+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003222s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003397s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005811s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003465s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000420s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020613s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001171s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000862s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004095s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010100s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005186s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000163s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011338s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001353s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001473s ]
+
+[ 2015-07-28T00:40:13+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001372s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001536s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006827s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004513s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002599s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000343s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.055068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055277s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006856s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.008844s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006065s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.008537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030822s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025351s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.036382s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000164s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.031088s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.019171s ]
+INFO: [ view_end ] --END-- [ RunTime:0.019301s ]
+
+[ 2015-07-28T00:40:20+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001491s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.006147s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.005998s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.001660s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033971s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003507s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001504s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000738s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009859s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039811s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.011780s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000165s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000093s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000081s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.041894s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001322s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001492s ]
+
+[ 2015-07-28T00:41:39+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005560s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005728s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006835s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005023s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002266s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000280s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032867s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004982s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005209s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007446s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025218s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012933s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.028076s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000167s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000094s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015962s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005472s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005644s ]
+
+[ 2015-07-28T00:41:54+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005478s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005648s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004291s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005776s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.004975s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.001188s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049158s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006027s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005894s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006581s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023707s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017488s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.028783s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000172s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.023778s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003752s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003879s ]
+
+[ 2015-07-28T00:42:04+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001393s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004969s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003884s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000699s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017024s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001314s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000875s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004310s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010796s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005413s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000237s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012050s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002070s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002192s ]
+
+[ 2015-07-28T00:43:03+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001476s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001676s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004797s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003629s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000476s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017441s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001223s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000860s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000665s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004403s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010946s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005532s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000163s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012218s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001246s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2015-07-28T00:43:07+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001536s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001711s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004978s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002561s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000458s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017067s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000865s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000969s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000689s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001012s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003903s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010145s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005117s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000166s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011510s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001259s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001380s ]
+
+[ 2015-07-28T00:43:11+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001406s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004841s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.006448s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.001554s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017499s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000890s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000845s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001567s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004739s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011421s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010308s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000164s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000094s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017144s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001357s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2015-07-28T00:43:50+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001493s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001990s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004598s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003744s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000432s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019744s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001168s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001171s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000686s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001965s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006373s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016207s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.008280s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000165s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017781s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002067s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002190s ]
+
+[ 2015-07-28T00:44:27+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.013593s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013764s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009694s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005151s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002967s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000346s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036310s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004215s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004638s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003502s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016420s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013129s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.020675s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000166s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000090s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017557s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005479s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005602s ]
+
+[ 2015-07-28T00:45:49+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003695s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003863s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003556s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004879s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.004021s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000972s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044449s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004212s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003367s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003059s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014611s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012252s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017399s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000164s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015202s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003836s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003960s ]
+
+[ 2015-07-28T00:46:31+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004137s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004355s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007335s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004495s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.004071s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000483s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045302s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005800s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007393s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025177s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017321s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.028028s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000167s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020333s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006151s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006275s ]
+
+[ 2015-07-28T00:47:00+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.012601s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012772s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010894s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004543s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.004803s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.001361s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038342s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004357s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005498s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005958s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024055s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015068s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.027836s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000196s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000094s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019068s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006918s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007054s ]
+
+[ 2015-07-28T00:47:12+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003738s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003906s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003503s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004452s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003094s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000524s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030049s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007114s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003221s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003023s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019020s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013845s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.029955s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000166s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000093s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.024957s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005557s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005706s ]
+
+[ 2015-07-28T00:47:51+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002356s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002523s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005252s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003659s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000546s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028329s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007594s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002139s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001378s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013004s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013397s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.014228s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000169s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000023s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014774s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001674s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001797s ]
+
+[ 2015-07-28T00:48:31+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002123s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002291s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011807s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004542s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003033s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045666s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005844s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005632s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004756s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022374s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017092s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.025165s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000165s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020044s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006601s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006725s ]
+
+[ 2015-07-28T00:48:32+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003901s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004069s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005982s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004503s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003035s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_name` LIKE '%%' )  [ RunTime:0.000232s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045872s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006171s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005983s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005631s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023904s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015637s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.026444s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000170s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000093s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018348s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.035965s ]
+INFO: [ view_end ] --END-- [ RunTime:0.036094s ]
+
+[ 2015-07-28T00:48:35+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001438s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005973s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004748s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002768s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050174s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006464s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005610s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004196s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024306s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016574s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.027145s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000166s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019578s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007055s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007180s ]
+
+[ 2015-07-28T00:48:53+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001487s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008755s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005474s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002524s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000545s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045826s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005955s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006799s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004464s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023408s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015963s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.026566s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000164s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019317s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005862s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005984s ]
+
+[ 2015-07-28T00:50:19+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004365s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004532s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004424s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005134s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002415s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000481s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033586s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003378s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004633s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003085s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016871s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011985s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.019796s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000175s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015094s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.027637s ]
+INFO: [ view_end ] --END-- [ RunTime:0.027771s ]
+
+[ 2015-07-28T00:50:26+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006261s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006430s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006247s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005393s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.004535s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000983s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049869s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.011298s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004822s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007504s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.011524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.035776s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014219s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.039751s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000170s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018350s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004882s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005010s ]
+
+[ 2015-07-28T00:53:13+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003800s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003968s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004619s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004937s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003536s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032567s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005957s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009798s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004694s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028442s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011880s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.031233s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000168s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014829s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006440s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006612s ]
+
+[ 2015-07-28T00:53:36+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003778s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003945s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005929s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004869s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.004115s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.001310s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.093542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093733s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006931s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005642s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005927s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025561s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018826s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.028643s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000175s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.022069s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007199s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007323s ]
+
+[ 2015-07-28T01:03:13+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003999s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005683s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.006969s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.005427s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000911s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038254s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003399s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003284s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003705s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014629s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013195s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017584s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000167s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016320s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007124s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007298s ]
+
+[ 2015-07-28T01:05:06+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005408s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005612s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006610s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.006199s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003813s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.001036s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.054687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054859s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006852s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006556s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007735s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028437s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019821s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.031273s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000238s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000166s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000029s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.022875s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.028895s ]
+INFO: [ view_end ] --END-- [ RunTime:0.029075s ]
+
+[ 2015-07-28T01:06:08+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004216s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004382s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003616s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005501s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002637s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000649s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030098s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003454s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003471s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003162s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014032s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014427s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017637s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000160s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018265s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007783s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007981s ]
+
+[ 2015-07-28T01:07:41+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005791s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005960s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004690s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005852s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003151s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000545s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039671s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009668s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005887s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027353s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015027s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.033265s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000170s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.021112s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003852s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004153s ]
+
+[ 2015-07-28T01:08:42+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001356s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001521s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004915s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003787s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000626s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021678s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006767s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000884s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000731s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009735s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011709s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.011235s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000162s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000090s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012989s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003056s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003220s ]
+
+[ 2015-07-28T01:09:12+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008247s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008417s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005707s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004945s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002045s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000209s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037271s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006552s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005262s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003692s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019325s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013376s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.022563s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000169s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000095s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000023s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016812s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.018529s ]
+INFO: [ view_end ] --END-- [ RunTime:0.018700s ]
+
+[ 2015-07-28T01:09:25+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004228s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004398s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005062s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004507s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003750s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039468s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003597s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003307s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003171s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013965s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013597s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017164s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000357s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000153s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016972s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004266s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004443s ]
+
+[ 2015-07-28T01:10:35+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001416s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001587s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004667s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002072s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000504s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016811s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001058s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000879s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000682s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003960s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013144s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005512s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000175s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000099s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014858s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003657s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003794s ]
+
+[ 2015-07-28T01:11:29+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005430s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005601s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005748s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005076s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002544s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031129s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.011162s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009232s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003311s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027572s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013020s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.030729s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000171s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016343s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.014672s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015012s ]
+
+[ 2015-07-28T01:11:55+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.013956s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014125s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.012488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012890s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004685s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002305s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000281s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034049s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003758s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003880s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003836s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015866s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013693s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.018685s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000226s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000094s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016659s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007158s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007332s ]
+
+[ 2015-07-28T01:14:28+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004802s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004973s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011156s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005216s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.005535s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.001575s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065218s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006842s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.008818s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.033105s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018750s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.037958s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000208s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000108s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.023736s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.012643s ]
+INFO: [ view_end ] --END-- [ RunTime:0.013931s ]
+
+[ 2015-07-28T01:14:30+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002090s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007631s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-28T01:14:52+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005030s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005201s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004968s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004576s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.004421s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.001402s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042018s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009219s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004455s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004184s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024509s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012628s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.028692s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000169s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001496s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000026s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017791s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007399s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007574s ]
+
+[ 2015-07-28T01:14:53+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001363s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005768s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-28T01:15:00+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002266s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002900s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009787s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005343s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.007240s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.001064s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.115547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115722s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.014431s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007554s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005881s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.035975s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018722s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.050300s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000170s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.033220s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006576s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006742s ]
+
+[ 2015-07-28T01:15:01+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001351s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001515s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-28T01:16:22+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005357s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005526s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004750s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004980s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003084s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000524s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030353s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003453s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006401s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003192s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016851s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012020s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.019931s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000172s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015268s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009198s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009337s ]
+
+[ 2015-07-28T01:16:22+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001347s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-28T01:16:24+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001350s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-28T01:17:50+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002283s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002456s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004853s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003543s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000321s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018936s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001779s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001763s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000702s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005822s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012417s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006935s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000215s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000093s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013684s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004150s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004359s ]
+
+[ 2015-07-28T01:17:50+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001667s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001835s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [8] Use of undefined constant friend_id - assumed 'friend_id' D:\wamp\www\webqq\APP\Modules\Index\Action\IndexAction.class.php 第 82 行.
+
+[ 2015-07-28T01:18:10+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002270s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002562s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004422s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.004270s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020135s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000864s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001200s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000730s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004873s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011596s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006488s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000170s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000101s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013367s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002146s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002341s ]
+
+[ 2015-07-28T01:18:11+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001342s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-28T01:18:15+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002711s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002880s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005075s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003556s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.001684s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021201s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000857s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001981s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001582s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006031s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015102s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007339s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000170s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000094s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016565s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002998s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003291s ]
+
+[ 2015-07-28T01:18:16+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004814s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005200s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004601s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-28T01:18:27+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001430s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.006713s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.004446s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000809s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050126s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.014354s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005997s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007738s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.008948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037502s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015747s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.041034s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000181s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020677s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007502s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007686s ]
+
+[ 2015-07-28T01:18:28+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003716s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003878s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003618s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-28T01:18:42+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002120s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002351s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005626s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.012286s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000765s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037224s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004365s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004407s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003204s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017045s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012957s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.019880s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000169s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015949s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.022403s ]
+INFO: [ view_end ] --END-- [ RunTime:0.022537s ]
+
+[ 2015-07-28T01:18:43+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001352s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-28T01:19:20+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001510s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004605s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002570s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000202s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019678s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000903s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000853s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000667s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004466s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012138s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006115s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000166s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013941s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002539s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002669s ]
+
+[ 2015-07-28T01:19:21+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001409s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-28T01:19:35+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002174s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002392s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001987s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005262s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.016295s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.004810s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019597s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000873s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000797s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004089s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011080s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.011529s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000166s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018675s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003563s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003735s ]
+
+[ 2015-07-28T01:19:35+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002564s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002745s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002250s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-28T01:29:17+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004384s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004689s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-28T01:29:17+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001461s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002109s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036978s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003982s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004143s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004057s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017902s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005796s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005925s ]
+
+[ 2015-07-28T01:29:18+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002756s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002935s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004427s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_name` = '柯梓晴' ) AND ( `password` = '6b9260b1e02041a665d4e4a5117cfe16' ) LIMIT 1   [ RunTime:0.004479s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021245s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000851s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000867s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000695s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003824s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001777s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001911s ]
+
+[ 2015-07-28T01:29:20+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002332s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002599s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002024s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005130s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.020008s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_name` LIKE '%%' )  [ RunTime:0.017255s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040260s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000973s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000889s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000804s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004046s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012926s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007371s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000174s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016423s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001247s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001409s ]
+
+[ 2015-07-28T01:29:21+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001400s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001565s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005367s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003458s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000513s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018203s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000922s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000883s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001790s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004971s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010728s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006219s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000167s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012127s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003145s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003276s ]
+
+[ 2015-07-28T01:29:24+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001381s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_relation` [ RunTime:0.005618s ]
+SQL: SELECT * FROM `hd_relation` WHERE ( user_id=14 AND friend_id=2 ) LIMIT 1   [ RunTime:0.004447s ]
+SQL: SHOW COLUMNS FROM `hd_relation` [ RunTime:0.005219s ]
+SQL: INSERT INTO `hd_relation` (`friend_id`,`user_id`,`status`,`group_name`) VALUES (2,14,0,'我的好友') [ RunTime:0.002997s ]
+
+[ 2015-07-28T01:29:46+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001788s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-28T01:29:46+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001306s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015631s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000826s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000833s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000650s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003857s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001128s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2015-07-28T01:29:51+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001536s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001706s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-28T01:29:51+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001347s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020972s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000860s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000861s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000668s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003876s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001289s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001411s ]
+
+[ 2015-07-28T01:29:52+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001354s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001513s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.006161s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_name` = '柯梓晴' ) AND ( `password` = '6b9260b1e02041a665d4e4a5117cfe16' ) LIMIT 1   [ RunTime:0.003701s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018195s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000827s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000933s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003734s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001254s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001559s ]
+
+[ 2015-07-28T01:29:53+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001374s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005825s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.003314s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_name` LIKE '%%' )  [ RunTime:0.000695s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044615s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001098s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000851s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004344s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016273s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005642s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000173s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017722s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001346s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001475s ]
+
+[ 2015-07-28T01:29:56+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001588s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001766s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005522s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002539s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.001410s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017377s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000892s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000919s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000687s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003852s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010708s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005313s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000172s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000089s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000023s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012326s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002802s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003133s ]
+
+[ 2015-07-28T01:29:57+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001468s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_relation` [ RunTime:0.004196s ]
+SQL: SELECT * FROM `hd_relation` WHERE ( user_id=14 AND friend_id=2 ) LIMIT 1   [ RunTime:0.002789s ]
+
+[ 2015-07-28T01:30:00+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001610s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001771s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_relation` [ RunTime:0.004243s ]
+SQL: SELECT * FROM `hd_relation` WHERE ( user_id=14 AND friend_id=2 ) LIMIT 1   [ RunTime:0.002417s ]
+
+[ 2015-07-28T01:30:03+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001362s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001523s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_relation` [ RunTime:0.004596s ]
+SQL: SELECT * FROM `hd_relation` WHERE ( user_id=14 AND friend_id=11 ) LIMIT 1   [ RunTime:0.002199s ]
+SQL: SHOW COLUMNS FROM `hd_relation` [ RunTime:0.004388s ]
+SQL: INSERT INTO `hd_relation` (`friend_id`,`user_id`,`status`,`group_name`) VALUES (11,14,0,'我的好友') [ RunTime:0.002301s ]
+
+[ 2015-07-28T01:31:24+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004696s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004872s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004777s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.004761s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002761s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.000648s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034106s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004537s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003406s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004144s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016726s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013983s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.019853s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000168s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000380s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000060s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017272s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.022059s ]
+INFO: [ view_end ] --END-- [ RunTime:0.022202s ]
+
+[ 2015-07-28T01:31:26+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001329s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_relation` [ RunTime:0.004147s ]
+SQL: SELECT * FROM `hd_relation` WHERE ( user_id=14 AND friend_id=4 ) LIMIT 1   [ RunTime:0.003319s ]
+SQL: SHOW COLUMNS FROM `hd_relation` [ RunTime:0.004517s ]
+SQL: INSERT INTO `hd_relation` (`friend_id`,`user_id`,`status`,`group_name`) VALUES (4,14,0,'我的好友') [ RunTime:0.002246s ]
+
+[ 2015-07-28T01:31:44+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001360s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-28T01:31:44+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001326s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017202s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000859s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000836s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000665s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003677s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001158s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2015-07-28T01:32:09+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001410s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-07-28T01:32:09+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001484s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003718s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018403s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001797s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000920s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000691s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005789s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001213s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2015-07-28T01:32:11+08:00 ] 127.0.0.1 /webqq/index.php/Index/Login/runLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001712s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001876s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005346s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_name` = '柯梓晴' ) AND ( `password` = '6b9260b1e02041a665d4e4a5117cfe16' ) LIMIT 1   [ RunTime:0.002826s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019052s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000811s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001126s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000876s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004159s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001314s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001438s ]
+
+[ 2015-07-28T01:32:12+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001379s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002344s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005253s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.006634s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_name` LIKE '%%' )  [ RunTime:0.001046s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032525s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001497s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000878s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000674s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004643s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021935s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005091s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000172s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.022518s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001252s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002415s ]
+
+[ 2015-07-28T01:32:14+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/chat/user_id/4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.006445s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = 4 ) LIMIT 1   [ RunTime:0.003724s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061228s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001336s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001325s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000716s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004988s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002013s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002143s ]
+
+[ 2015-07-28T01:32:15+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/runChat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_content` [ RunTime:0.005661s ]
+SQL: SELECT * FROM `hd_content` WHERE ( (user_id=14 and pid=4) or (user_id=4 and pid=14) ) ORDER BY time  [ RunTime:0.016508s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\webqq\APP\Modules\Index\Action\IndexAction.class.php 第 57 行.
+
+[ 2015-07-28T01:32:15+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/runChat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001862s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002023s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_content` [ RunTime:0.005393s ]
+SQL: SELECT * FROM `hd_content` WHERE ( (user_id=14 and pid=4) or (user_id=4 and pid=14) ) ORDER BY time  [ RunTime:0.003444s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\webqq\APP\Modules\Index\Action\IndexAction.class.php 第 57 行.
+
+[ 2015-07-28T01:32:16+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/runChat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003802s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003966s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_content` [ RunTime:0.008204s ]
+SQL: SELECT * FROM `hd_content` WHERE ( (user_id=14 and pid=4) or (user_id=4 and pid=14) ) ORDER BY time  [ RunTime:0.001005s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\webqq\APP\Modules\Index\Action\IndexAction.class.php 第 57 行.
+
+[ 2015-07-28T01:32:17+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003745s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003918s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003854s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005161s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `user_id` = '14' ) LIMIT 1   [ RunTime:0.002947s ]
+SQL: SELECT * FROM `hd_user`  [ RunTime:0.001386s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038060s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.018804s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005038s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007040s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036245s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\webqq\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015274s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.039597s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000201s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000097s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018798s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007336s ]
+
+[ 2015-07-28T01:32:18+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001781s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001957s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_relation` [ RunTime:0.004695s ]
+SQL: SELECT * FROM `hd_relation` WHERE ( user_id=14 AND friend_id=4 ) LIMIT 1   [ RunTime:0.002311s ]
+
+[ 2015-07-28T01:32:21+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001431s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_relation` [ RunTime:0.004206s ]
+SQL: SELECT * FROM `hd_relation` WHERE ( user_id=14 AND friend_id=3 ) LIMIT 1   [ RunTime:0.002051s ]
+SQL: SHOW COLUMNS FROM `hd_relation` [ RunTime:0.004442s ]
+SQL: INSERT INTO `hd_relation` (`friend_id`,`user_id`,`status`,`group_name`) VALUES (3,14,0,'我的好友') [ RunTime:0.002331s ]
+
+[ 2015-07-28T01:32:24+08:00 ] 127.0.0.1 /webqq/index.php/Index/Index/addFriendAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001327s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\webqq\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `hd_relation` [ RunTime:0.004391s ]
+SQL: SELECT * FROM `hd_relation` WHERE ( user_id=14 AND friend_id=3 ) LIMIT 1   [ RunTime:0.002665s ]
+

@@ -1,0 +1,338 @@
+[ 2016-03-10T10:55:01+08:00 ] 58.247.206.154 /weixin/index.php?signature=3a3975f207b286f2fce6be6d0ecbb6347eb196d1&timestamp=1457578501&nonce=954012742
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `wx_access_token` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wx_access_token` ORDER BY log_id DESC LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: ch /data/home/qxu1591180029/htdocs/weixin/Application/Common/Common/function.php 第 17 行.
+NOTIC: [2] curl_close() expects parameter 1 to be resource, null given /data/home/qxu1591180029/htdocs/weixin/Application/Common/Common/function.php 第 17 行.
+SQL: INSERT INTO `wx_access_token` (`access_token`,`expires_in`,`add_time`) VALUES ('nOw9iA-tApI0YQK-vZ_-CwKxWM2DdHWdCnt1T_VeyRd32O4F9EPLzQNYqDlphbzoQFzrkF0K6gehYf7RlHSelw1Sem_bOcUhCcHjVmn2Itb0Zy11S0doLZXEXe7pm6FwLBVaAHACSM','7200','1457578501') [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2016-03-10T10:56:09+08:00 ] 58.247.206.156 /weixin/index.php?signature=fc3a7b4b2318fe670b5c542fa4d32214715506b5&timestamp=1457578569&nonce=286705029
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `wx_access_token` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_access_token` ORDER BY log_id DESC LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002793s ]
+
+[ 2016-03-10T10:57:14+08:00 ] 58.247.206.148 /weixin/index.php?signature=7af4741dcfafafe643fadfae6588ab10e888659c&timestamp=1457578634&nonce=569068623
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `wx_access_token` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_access_token` ORDER BY log_id DESC LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2016-03-10T10:58:42+08:00 ] 58.247.206.158 /weixin/index.php?signature=03a6da2ba35b2b1dc04264d492e459f66198aa1b&timestamp=1457578722&nonce=629720714
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-03-10T10:59:20+08:00 ] 58.247.206.158 /weixin/index.php?signature=0c52f6d99fed610dc9924d93bde0f1bf4d5712c2&timestamp=1457578760&nonce=1835308718
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0013s ]
+SQL: INSERT INTO `wx_user_info` (`open_id`,`status`,`add_time`,`update_time`) VALUES ('aaaaa','1','1457578760','1457578760') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2016-03-10T10:59:28+08:00 ] 58.247.206.155 /weixin/index.php?signature=4069130d68ca24a11bb7993c4f81deb4d1b848f4&timestamp=1457578768&nonce=1808505925
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `wx_access_token` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wx_access_token` ORDER BY log_id DESC LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2016-03-10T11:00:53+08:00 ] 58.247.206.143 /weixin/index.php?signature=3afd24217dab70859c104079a1597fab664f8711&timestamp=1457578853&nonce=120376424
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2016-03-10T11:01:13+08:00 ] 58.247.206.143 /weixin/index.php?signature=3a9cc43fedbc84441563518307f95a5f55cc6138&timestamp=1457578873&nonce=2065406072
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0029s ]
+ERR: 1062:Duplicate entry '' for key 'open_id'
+ [ SQL语句 ] : INSERT INTO `wx_user_info` (`status`,`add_time`,`update_time`) VALUES ('1','1457578873','1457578873')
+ERR: 1062:Duplicate entry '' for key 'open_id'
+ [ SQL语句 ] : INSERT INTO `wx_user_info` (`status`,`add_time`,`update_time`) VALUES ('1','1457578873','1457578873')
+
+[ 2016-03-10T11:01:41+08:00 ] 58.247.206.153 /weixin/index.php?signature=158627ce8b48cabf9f35fe7d781832f8d7c73307&timestamp=1457578901&nonce=881398670
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `wx_access_token` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wx_access_token` ORDER BY log_id DESC LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2016-03-10T11:04:11+08:00 ] 58.247.206.148 /weixin/index.php?signature=45075b080050b3be0b9d512bf00970c160402d56&timestamp=1457579051&nonce=1449391570
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2016-03-10T11:04:27+08:00 ] 58.247.206.143 /weixin/index.php?signature=1c6f9a35208a034857a2562ee05d8e7c5a0d08f2&timestamp=1457579067&nonce=591017329
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0011s ]
+ERR: 1062:Duplicate entry '' for key 'open_id'
+ [ SQL语句 ] : INSERT INTO `wx_user_info` (`status`,`add_time`,`update_time`) VALUES ('1','1457579067','1457579067')
+ERR: 1062:Duplicate entry '' for key 'open_id'
+ [ SQL语句 ] : INSERT INTO `wx_user_info` (`status`,`add_time`,`update_time`) VALUES ('1','1457579067','1457579067')
+
+[ 2016-03-10T11:06:46+08:00 ] 58.247.206.158 /weixin/index.php?signature=ee72a639bdb2f74fe05b958c386b3f86af0a7bc9&timestamp=1457579206&nonce=386115747
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2016-03-10T11:07:11+08:00 ] 58.247.206.148 /weixin/index.php?signature=1a0db2bba48a729636ad4af870941a0dccf0d60e&timestamp=1457579231&nonce=26909697
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0011s ]
+SQL: INSERT INTO `wx_user_info` (`open_id`,`status`,`add_time`,`update_time`) VALUES ('fdsafdsagdsaffewafdsafdsafdasfdsaf','1','1457579231','1457579231') [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2016-03-10T11:09:49+08:00 ] 58.247.206.143 /weixin/index.php?signature=64251caf8a4b7151b849c5da0f119a4ed81215b7&timestamp=1457579389&nonce=1341315711
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2016-03-10T11:10:40+08:00 ] 58.247.206.153 /weixin/index.php?signature=019bdfa22d8cf9476b875169bbe18cca93bf0f3f&timestamp=1457579440&nonce=481355734
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0009s ]
+SQL: INSERT INTO `wx_user_info` (`open_id`,`status`,`add_time`,`update_time`) VALUES ('ogCNcwXhorURAuwWW7l6SEgJjZd0','1','1457579440','1457579440') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001228s ]
+
+[ 2016-03-10T11:11:28+08:00 ] 58.247.206.143 /weixin/index.php?signature=d43c9996eb89be15ce12e64a9ece49873711fdbe&timestamp=1457579488&nonce=1375060384
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2016-03-10T11:11:44+08:00 ] 58.247.206.145 /weixin/index.php?signature=e1e4e0edce8f4f0d104618d1a371dbb9286bb147&timestamp=1457579504&nonce=883636084
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '' for key 'open_id'
+ [ SQL语句 ] : INSERT INTO `wx_user_info` (`status`,`add_time`,`update_time`) VALUES ('1','1457579504','1457579504')
+ERR: 1062:Duplicate entry '' for key 'open_id'
+ [ SQL语句 ] : INSERT INTO `wx_user_info` (`status`,`add_time`,`update_time`) VALUES ('1','1457579504','1457579504')
+
+[ 2016-03-10T11:12:31+08:00 ] 58.247.206.158 /weixin/index.php?signature=f240a9d34c6b85f1c3c131ef4f47de713b11152d&timestamp=1457579551&nonce=71807781
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2016-03-10T11:13:01+08:00 ] 58.247.206.143 /weixin/index.php?signature=a720d46e47bed4e99fef197cec00d2372337cd86&timestamp=1457579581&nonce=583375197
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2016-03-10T11:13:36+08:00 ] 58.247.206.143 /weixin/index.php?signature=378e1d026aa27452ecf4be2ced7ec8e4b83dbfdc&timestamp=1457579616&nonce=702981992
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2016-03-10T11:13:52+08:00 ] 58.247.206.153 /weixin/index.php?signature=591b1584e63a50d275661b08adfa08dfbe034f7c&timestamp=1457579632&nonce=2061259348
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2016-03-10T11:17:41+08:00 ] 58.247.206.158 /weixin/index.php?signature=6dbbf4950bf70d0cf080efc89787ecf323f42145&timestamp=1457579861&nonce=403257283
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2016-03-10T11:18:00+08:00 ] 58.247.206.143 /weixin/index.php?signature=c3a0ffa59f2d846c8a86ff3bbddaff2a16bb2132&timestamp=1457579879&nonce=899712625
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2016-03-10T11:19:15+08:00 ] 58.247.206.158 /weixin/index.php?signature=3583a4a81e6b2e9a4202d8a610493c7e760854dc&timestamp=1457579955&nonce=696915512
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2016-03-10T11:19:45+08:00 ] 58.247.206.143 /weixin/index.php?signature=d5c85fe67974ebe9a4b2b82770f281f4dc5adc53&timestamp=1457579985&nonce=1522582361
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0009s ]
+SQL: INSERT INTO `wx_user_info` (`open_id`,`status`,`add_time`,`update_time`) VALUES ('ogCNcwXhorURAuwWW7l6SEgJjZd0','1','1457579985','1457579985') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-03-10T11:28:24+08:00 ] 58.247.206.148 /weixin/index.php?signature=5ddb286ce93fb83fdbf81c5cb8e46ae5bbb55ef9&timestamp=1457580504&nonce=135846541
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-03-10T11:28:47+08:00 ] 58.247.206.148 /weixin/index.php?signature=4684812fe2e49ba38fa3d68d2d7d56b5296788d0&timestamp=1457580527&nonce=1211408719
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id = 'ogCNcwXhorURAuwWW7l6SEgJjZd0' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `wx_user_info` SET `status`='1',`update_time`='1457580527' WHERE ( open_id = 'ogCNcwXhorURAuwWW7l6SEgJjZd0' ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-03-10T11:31:08+08:00 ] 58.247.206.153 /weixin/index.php?signature=5974bf46513552768613c2cf60ce088652c916f6&timestamp=1457580668&nonce=132949900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+

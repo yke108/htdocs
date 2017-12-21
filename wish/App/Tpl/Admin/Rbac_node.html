@@ -1,0 +1,28 @@
+<html>
+	<body>
+		<div style='width:95%; height:auto; color:#339999; border:1px solid #66FFFF; padding:10px;'>
+		<p><a href="{:U('Admin/Rbac/addNode')}">添加应用</a></p>
+
+		<foreach name='node' item='app'>
+		<div style="margin:10px; width:90%; height:auto; border:1px solid #CC6600; padding:10px;">
+		<p>
+			<strong>{$app.title}</strong>
+			<a href="{:U('Admin/Rbac/addNode',array('pid'=>$app['id'],'level'=>2))}">添加控制器</a><a href="">[修改]</a><a href="">[删除]</a>
+		</p>
+		<foreach name='app.child' item='action'>
+		<div style="margin:10px; width:85%; height:auto; border:1px solid #0033CC; padding:10px;">
+		<p>
+			<strong>{$action.title}</strong>
+
+			<a href="{:U('Admin/Rbac/addNode',array('pid'=>$action['id'],'level'=>3))}">添加方法</a>
+		</p>
+		<foreach name='action.child' item='v'>
+			<strong>{$v.title}</strong><a href="">[修改]</a><a href="">[删除]</a>
+		</foreach>
+		</div>
+		</foreach>
+		</div>
+		</foreach>
+		</div>
+	</body>
+</html>

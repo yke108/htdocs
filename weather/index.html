@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>天气查询</title>
+		<link rel="stylesheet" href="http://tools.juhe.cn/css/life.css" type="text/css"  />
+		<script type="text/javascript" src="http://tools.juhe.cn/js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript">
+			function get_jsonp() {
+				$('#resultIndex').html('');
+				$("#result_fut").html('');
+				$('#result_weather').html('正在查询中……');
+				
+				$.get("done.php", {cityname:$("#textt").val()}, function(data) {
+					var sk = data.result.sk;
+					var today = data.result.today;
+					var futur = data.result.future;
+					var fut = "<tr><th>日期</th><th>温度</th><th>天气</th><th>风向</th></tr>";
+					if(today){
+						for (var i in futur) {
+							fut += "<tr><td>" + futur[i].date + ' , ' + futur[i].week + "</td><td>" +  futur[i].temperature + "</td><td>" + futur[i].weather + "</td><td>" + futur[i].wind + "</td></tr>";
+						}
+
+						$('#result_weather').html("<p>" + '当前:  ' + sk.temp + '℃  , ' + sk.wind_direction + sk.wind_strength + ' , ' + '空气湿度' + sk.humidity + ' , 更新时间' + sk.time + "</p><p style='padding-bottom: 10px;'>" + today.city + ' 今天是:  ' + today.date_y + ' ' + today.week + ' , ' + today.temperature + ' , ' + today.weather + ' , ' + today.wind + "</p>");
+						$("#result_fut").html(fut);
+						$("#resultIndex").html("<tr><th>晾晒指数</th><td>" + today.drying_index + "</td><th>紫外线强度</th><td>" + today.uv_index + "</td></tr>" + "<tr><th>舒适度指数</th><td>" + today.comfort_index + "</td><th>洗车指数</th><td>" + today.wash_index + "</td></tr>" + "<tr><th>旅游指数</th><td>" + today.travel_index + "</td><th>晨练指数</th><td>" + today.exercise_index + "</td></tr>" + "<tr><th>穿衣指数</th><td colspan='3' >" + today.dressing_index + ' , ' + today.dressing_advice + "</td></tr>");
+						$("table").css('border-bottom','1px solid #ccc');
+					}else{
+						$('#result_weather').html('请输入正确的城市名！');
+						$('#resultIndex').html('');
+						$("#result_fut").html('');
+					}
+				}, 'json');
+				return false;
+			}
+
+			toChange = function(){
+				var oTextt = document.getElementById('textt');
+				textChange(oTextt,'请输入所要查询城市');
+			};
+
+			$(function() {
+				$("#tele a").bind("click", function(){
+					$('#textt').val($(this).text().trim());
+					get_jsonp();
+				});	
+			});
+		</script>
+	</head>
+	<body>
+		<div id="content">
+			<div id="bar_r">
+				<h1 title="天气查询" style="font-size:50px;">天气查询</h1>
+				<div id="search_form">
+					<form onsubmit="return get_jsonp();">
+						<input type="text" id="textt" value="请输入所要查询城市" />
+						<input type="image" id="ima" class="search" src="http://tools.juhe.cn/image/but.png"/>
+					</form>
+				</div>
+				<div id="tele" style="text-align:left; padding:20px 0 0 160px; font-size:12px;">
+					<p>
+						<a>茂名</a><a>深圳</a><a>珠海</a><a>江门</a><a>湛江</a><a>东莞</a><a>佛山</a><a>肇庆</a><a>阳光</a><a>汕头</a><a>汕尾</a>
+					</p>
+					<p>
+						<a>北京</a><a>上海</a><a>天津</a><a>重庆</a><a>广州</a><a>南京</a><a>杭州</a><a>合肥</a><a>郑州</a><a>成都</a><a>石家庄</a>
+					</p>
+					<p>
+						<a>长沙</a><a>南昌</a><a>武汉</a><a>济南</a><a>沈阳</a><a>兰州</a><a>桂林</a><a>厦门</a><a>西安</a><a>长春</a><a>哈尔滨</a>
+					</p>
+					<p>
+						<a>太原</a><a>乌鲁木齐</a><a>贵阳</a><a>银川</a><a>大连</a><a>昆明</a><a>海南</a><a>拉萨</a><a>香港</a><a>台州</a><a>澳门</a>
+					</p>
+				</div>
+				<div id="result_weather"></div>
+				<div class="tables">
+					<table id="result_fut" cellspacing="0" cellpadding="10px"></table>
+					<table id="resultIndex" cellspacing="0" cellpadding="10px"></table>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			THINKS 石榴庄园2015 &copy; 版权所有
+		</div>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+[ 2017-03-19T23:47:54+08:00 ] 58.247.206.143 /weixin/index.php?signature=8662836858437db9a8e7749e6ed61ae969634b37&timestamp=1489938474&nonce=1978181846&openid=ogF-_uO0FgBeTJo9tYs1lL56eEMc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024139s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wx_user_info` WHERE ( open_id = 'ogF-_uO0FgBeTJo9tYs1lL56eEMc' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wx_user_info` (`open_id`,`status`,`add_time`,`update_time`) VALUES ('ogF-_uO0FgBeTJo9tYs1lL56eEMc','1','1489938474','1489938474') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027225s ]
+
+[ 2017-03-19T23:48:01+08:00 ] 58.247.206.158 /weixin/index.php?signature=19e909a159039a5f4120f4796451bab5360dce30&timestamp=1489938483&nonce=259949673&openid=ogF-_uO0FgBeTJo9tYs1lL56eEMc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `wx_user_info` [ RunTime:0.0032s ]
+SQL: UPDATE `wx_user_info` SET `status`='0',`update_time`='1489938481' WHERE ( open_id = 'ogF-_uO0FgBeTJo9tYs1lL56eEMc' ) [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2017-03-19T23:48:03+08:00 ] 180.153.201.15 /weixin/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/home/qxu1591180029/htdocs/weixin/Application/Home/Model/WechatModel.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+

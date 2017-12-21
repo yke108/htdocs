@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>左边</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="__ASSETS__/css/bootstrap.min.css" rel="stylesheet">
+  <script src="__ASSETS__/js/jquery.min.js"></script>
+  <script src="__ASSETS__/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+   body{
+      margin: 0 10px;
+   }
+</style>
+<body>
+<div class="panel-group" id="accordion">
+
+	<div class="panel panel-default">
+    <div class="panel-heading" style="background:#B6D1DB;">
+      <h4 class="panel-title">
+        导航栏
+      </h4>
+    </div>
+  </div>
+
+	<foreach name="menu_list" item="v" >
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapse_{$v.menu_id}">
+          {$v.menu_name}
+        </a>
+      </h4>
+    </div>
+    <div id="collapse_{$v.menu_id}" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <ul>
+
+        	<foreach name="v.child" item="_v" >
+					<li><a href="{:U('Home/Main/main','menu_id='.$_v['menu_id'])}" target="mainFrame">{$_v.menu_name}</a></li>
+					</foreach>
+
+				</ul>
+      </div>
+    </div>
+  </div>
+	</foreach>
+</div>
+</body>
+</html>
+</html>

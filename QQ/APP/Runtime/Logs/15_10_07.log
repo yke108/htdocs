@@ -1,0 +1,1705 @@
+[ 2015-10-07T08:17:48+08:00 ] 218.241.97.200 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+
+[ 2015-10-07T13:39:51+08:00 ] 116.22.163.92 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+
+[ 2015-10-07T13:39:51+08:00 ] 116.22.163.92 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000802s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015025s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000433s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000377s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001741s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000570s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2015-10-07T13:42:52+08:00 ] 116.22.163.92 /index.php/Index/Reg/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000812s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027666s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000428s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000400s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001752s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000592s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2015-10-07T13:42:57+08:00 ] 116.22.163.92 /index.php/Index/Reg/regAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001077s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001599s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = 'a' ) LIMIT 1   [ RunTime:0.000710s ]
+
+[ 2015-10-07T13:42:58+08:00 ] 116.22.163.92 /index.php/Index/Reg/regAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000956s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001150s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = 'aa' ) LIMIT 1   [ RunTime:0.000861s ]
+NOTIC: [8] Undefined variable: username /data/home/qxu1591180029/htdocs/APP/Modules/Index/Action/RegAction.class.php 第 43 行.
+
+[ 2015-10-07T13:43:13+08:00 ] 116.22.163.92 /index.php/Index/Reg/regAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001241s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001152s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = 'a' ) LIMIT 1   [ RunTime:0.000611s ]
+
+[ 2015-10-07T13:43:13+08:00 ] 116.22.163.92 /index.php/Index/Reg/regAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001088s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = '' ) LIMIT 1   [ RunTime:0.000632s ]
+
+[ 2015-10-07T13:43:15+08:00 ] 116.22.163.92 /index.php/Index/Reg/regAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000921s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001066s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = 't' ) LIMIT 1   [ RunTime:0.000554s ]
+
+[ 2015-10-07T13:43:15+08:00 ] 116.22.163.92 /index.php/Index/Reg/regAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001043s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = 'tt' ) LIMIT 1   [ RunTime:0.000598s ]
+
+[ 2015-10-07T13:43:22+08:00 ] 116.22.163.92 /index.php/Index/Reg/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000908s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030477s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000422s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000457s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001805s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000706s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2015-10-07T13:43:30+08:00 ] 116.22.163.92 /index.php/Index/Reg/regAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000795s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001018s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = 't' ) LIMIT 1   [ RunTime:0.000448s ]
+
+[ 2015-10-07T13:43:31+08:00 ] 116.22.163.92 /index.php/Index/Reg/regAjax
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000791s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001110s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = 'tt' ) LIMIT 1   [ RunTime:0.000531s ]
+
+[ 2015-10-07T13:44:24+08:00 ] 116.22.163.92 /index.php/Index/Reg/runReg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001073s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001128s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = 'tt' ) LIMIT 1   [ RunTime:0.000480s ]
+SQL: INSERT INTO `qq_user` (`user_name`,`password`,`login_time`) VALUES ('tt','bcc720f2981d1a68dbd66ffd67560c37',1444196664) [ RunTime:0.000776s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018717s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000578s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000579s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000436s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002557s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000636s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2015-10-07T13:44:26+08:00 ] 116.22.163.92 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000859s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+
+[ 2015-10-07T13:44:26+08:00 ] 116.22.163.92 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000993s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008104s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000385s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000379s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000260s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001688s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000570s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2015-10-07T13:44:35+08:00 ] 116.22.163.92 /index.php/Index/Login/runLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001002s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001194s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = 'tt' ) AND ( `password` = 'bcc720f2981d1a68dbd66ffd67560c37' ) LIMIT 1   [ RunTime:0.000670s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031401s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000709s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000443s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002445s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000805s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2015-10-07T13:44:37+08:00 ] 116.22.163.92 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+
+[ 2015-10-07T13:44:37+08:00 ] 116.22.163.92 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000800s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008339s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000381s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000353s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000293s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001647s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000562s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2015-10-07T13:44:48+08:00 ] 116.22.163.92 /index.php/Index/Login/runLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000916s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001124s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = 'aa' ) AND ( `password` = '4124bc0a9335c27f086f24ba207a4912' ) LIMIT 1   [ RunTime:0.001008s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007479s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000417s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000367s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001730s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000617s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2015-10-07T13:44:49+08:00 ] 116.22.163.92 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000810s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+
+[ 2015-10-07T13:44:49+08:00 ] 116.22.163.92 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000801s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010452s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000377s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000378s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001664s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000619s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2015-10-07T13:45:12+08:00 ] 116.22.163.92 /index.php/Index/Login/qq_login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001166s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /data/home/qxu1591180029/htdocs/Class/Connect2.0/API/qqConnectAPI.php 第 2 行.
+
+[ 2015-10-07T13:45:42+08:00 ] 116.22.163.92 /index.php/Index/Login/callback?code=EAFE436814B2D718305C267A84B283B6&state=2a9f1495bf24394613e80c35f60429f6
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000887s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /data/home/qxu1591180029/htdocs/Class/Connect2.0/API/qqConnectAPI.php 第 2 行.
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001089s ]
+SQL: SELECT * FROM `qq_user` WHERE ( qq_openid="37CA14FCEC5D8A3A0946D5E89DAAE1CB" ) LIMIT 1   [ RunTime:0.000565s ]
+SQL: UPDATE `qq_user` SET `login_time`=1444196742 WHERE ( user_id=29 ) [ RunTime:0.000912s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008158s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000418s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000402s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000270s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001902s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2015-10-07T13:45:44+08:00 ] 116.22.163.92 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000808s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+
+[ 2015-10-07T13:45:44+08:00 ] 116.22.163.92 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001021s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009311s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000389s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000358s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000295s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001670s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000551s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2015-10-07T13:46:43+08:00 ] 116.22.163.92 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000998s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009282s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000515s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000374s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000277s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001884s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000662s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2015-10-07T13:46:52+08:00 ] 116.22.163.92 /index.php/Index/Login/runLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001135s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = 'aa' ) AND ( `password` = '4124bc0a9335c27f086f24ba207a4912' ) LIMIT 1   [ RunTime:0.000677s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008644s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000485s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000460s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000414s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002263s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000582s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2015-10-07T13:46:54+08:00 ] 116.22.163.92 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000803s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+
+[ 2015-10-07T13:46:54+08:00 ] 116.22.163.92 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000792s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008292s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000444s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000390s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000284s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001774s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000702s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2015-10-07T13:49:44+08:00 ] 116.22.163.92 /index.php/Index/Login/runLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000831s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001086s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = 'aa' ) AND ( `password` = '4124bc0a9335c27f086f24ba207a4912' ) LIMIT 1   [ RunTime:0.000533s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008067s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000573s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000459s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000363s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002216s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000700s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2015-10-07T13:49:46+08:00 ] 116.22.163.92 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000809s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+
+[ 2015-10-07T14:15:12+08:00 ] 58.62.253.44 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+
+[ 2015-10-07T14:15:12+08:00 ] 180.153.206.16 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+
+[ 2015-10-07T14:16:03+08:00 ] 58.62.253.44 /index.php/Index/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000838s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008650s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000441s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000548s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000279s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001896s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000615s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2015-10-07T14:16:04+08:00 ] 112.64.235.89 /index.php/Index/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000762s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008415s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000409s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000358s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000281s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001679s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000564s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2015-10-07T14:16:10+08:00 ] 58.62.253.44 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000777s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008251s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000367s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000424s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000278s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001696s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000700s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2015-10-07T14:16:10+08:00 ] 112.65.193.14 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000776s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010768s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000482s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000382s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000296s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001821s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000584s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2015-10-07T14:16:12+08:00 ] 58.62.253.44 /index.php/Index/Login/runLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001056s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001358s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = '晴晴' ) AND ( `password` = '6b9260b1e02041a665d4e4a5117cfe16' ) LIMIT 1   [ RunTime:0.003134s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008083s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000418s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000395s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000361s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001860s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000639s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2015-10-07T14:16:12+08:00 ] 180.153.163.210 /index.php/Index/Login/runLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000943s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000965s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = '' ) AND ( `password` = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1   [ RunTime:0.000551s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007677s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000460s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000525s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000397s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002313s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002905s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002977s ]
+
+[ 2015-10-07T14:16:13+08:00 ] 58.62.253.44 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000833s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+
+[ 2015-10-07T14:16:14+08:00 ] 101.226.89.119 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000819s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+
+[ 2015-10-07T14:17:01+08:00 ] 116.22.163.92 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+
+[ 2015-10-07T14:17:12+08:00 ] 116.22.163.92 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000822s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008431s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000376s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000410s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000282s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001771s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000642s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2015-10-07T14:17:16+08:00 ] 116.22.163.92 /index.php/Index/Login/runLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001036s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001125s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = 'aa' ) AND ( `password` = '4124bc0a9335c27f086f24ba207a4912' ) LIMIT 1   [ RunTime:0.000662s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008362s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000423s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000376s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000308s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001739s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000619s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2015-10-07T14:17:17+08:00 ] 116.22.163.92 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000880s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+
+[ 2015-10-07T14:17:50+08:00 ] 116.22.162.96 /index.php/Index/Login/runLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000788s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001108s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = 'aa' ) AND ( `password` = '4124bc0a9335c27f086f24ba207a4912' ) LIMIT 1   [ RunTime:0.000530s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007174s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000352s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000374s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000291s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001643s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000607s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2015-10-07T14:17:51+08:00 ] 116.22.162.96 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000771s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+
+[ 2015-10-07T14:18:16+08:00 ] 116.22.162.96 /index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001168s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+
+[ 2015-10-07T14:18:24+08:00 ] 116.22.162.96 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000903s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+
+[ 2015-10-07T14:18:37+08:00 ] 116.22.162.96 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000801s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007901s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000387s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000367s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000391s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001857s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000581s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2015-10-07T14:18:44+08:00 ] 116.22.162.96 /index.php/Index/Login/runLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000899s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.002974s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = 'aa' ) AND ( `password` = '4124bc0a9335c27f086f24ba207a4912' ) LIMIT 1   [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008787s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000588s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000561s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000413s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002547s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000867s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2015-10-07T14:18:45+08:00 ] 116.22.162.96 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000795s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+
+[ 2015-10-07T14:23:04+08:00 ] 116.22.163.92 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000800s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+
+[ 2015-10-07T14:23:04+08:00 ] 116.22.163.92 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000770s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008016s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000381s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000376s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000259s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001647s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000549s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2015-10-07T14:23:10+08:00 ] 116.22.163.92 /index.php/Index/Login/runLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000805s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001678s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = 'aa' ) AND ( `password` = '4124bc0a9335c27f086f24ba207a4912' ) LIMIT 1   [ RunTime:0.000489s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008551s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000373s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000373s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000305s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001680s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000574s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2015-10-07T14:23:11+08:00 ] 116.22.163.92 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001230s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+
+[ 2015-10-07T14:23:11+08:00 ] 116.22.163.92 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000811s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009845s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000577s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000429s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000261s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002147s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000767s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2015-10-07T14:26:29+08:00 ] 116.22.162.96 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+
+[ 2015-10-07T14:26:30+08:00 ] 116.22.162.96 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000998s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010533s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000621s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000519s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002256s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000556s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2015-10-07T14:26:35+08:00 ] 116.22.162.96 /index.php/Index/Login/runLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000781s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001260s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = 'aa' ) AND ( `password` = '4124bc0a9335c27f086f24ba207a4912' ) LIMIT 1   [ RunTime:0.000736s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011182s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000426s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000407s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000268s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001849s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000579s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2015-10-07T14:26:36+08:00 ] 116.22.162.96 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000761s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+
+[ 2015-10-07T14:26:37+08:00 ] 116.22.162.96 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000902s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008698s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000535s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000600s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002107s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000565s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2015-10-07T17:09:53+08:00 ] 58.62.253.44 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000836s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.001425s ]
+SQL: SHOW COLUMNS FROM qq_user u [ RunTime:0.000501s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_user u
+SQL: SHOW COLUMNS FROM qq_relation r [ RunTime:0.000493s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'r' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_relation r
+SQL: SELECT u.user_name,u.logo,u.style_name,r.friend_id,r.remark,r.group_name FROM qq_user u LEFT JOIN qq_relation r on u.user_id=r.friend_id WHERE ( r.user_id=11 AND status=1 AND (u.user_name like '%%' OR r.remark like '%%') )  [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000877s ]
+SQL: SELECT `user_name`,`style_name`,`logo` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.001924s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.000898s ]
+SQL: SELECT count(*) num FROM `qq_relation` WHERE ( friend_id=11 and status=0 ) LIMIT 1   [ RunTime:0.000614s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043805s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000438s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000407s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000280s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001862s ]
+NOTIC: [8] Constant THEME_NAME already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061251s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002336s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000141s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000043s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000011s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.061801s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000655s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2015-10-07T17:09:59+08:00 ] 58.62.253.44 /index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000911s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+
+[ 2015-10-07T17:09:59+08:00 ] 58.62.253.44 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010451s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000451s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000439s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001960s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000697s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2015-10-07T17:10:01+08:00 ] 58.62.253.44 /index.php/Index/Login/runLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001259s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001469s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001237s ]
+SQL: SELECT * FROM `qq_user` WHERE ( `user_name` = '晴晴' ) AND ( `password` = '6b9260b1e02041a665d4e4a5117cfe16' ) LIMIT 1   [ RunTime:0.000645s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008696s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000466s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000610s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000435s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002360s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000762s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2015-10-07T17:10:02+08:00 ] 58.62.253.44 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000771s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.001415s ]
+SQL: SHOW COLUMNS FROM qq_user u [ RunTime:0.000496s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_user u
+SQL: SHOW COLUMNS FROM qq_relation r [ RunTime:0.000490s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'r' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_relation r
+SQL: SELECT u.user_name,u.logo,u.style_name,r.friend_id,r.remark,r.group_name FROM qq_user u LEFT JOIN qq_relation r on u.user_id=r.friend_id WHERE ( r.user_id=11 AND status=1 AND (u.user_name like '%%' OR r.remark like '%%') )  [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001299s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001296s ]
+SQL: SELECT `user_name`,`style_name`,`logo` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.001124s ]
+SQL: SELECT count(*) num FROM `qq_relation` WHERE ( friend_id=11 and status=0 ) LIMIT 1   [ RunTime:0.000480s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010633s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000414s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000369s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000309s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001863s ]
+NOTIC: [8] Constant THEME_NAME already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005965s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002251s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000140s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000060s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000010s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006434s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000705s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2015-10-07T17:10:03+08:00 ] 58.62.253.44 /index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001484s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001269s ]
+SQL: SELECT `user_name`,`style_name`,`logo` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.001282s ]
+SQL: SELECT count(*) num FROM `qq_relation` WHERE ( friend_id=11 and status=0 ) LIMIT 1   [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM qq_relation r [ RunTime:0.000473s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'r' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_relation r
+SQL: SHOW COLUMNS FROM qq_user u [ RunTime:0.000429s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_user u
+SQL: SELECT distinct(u.user_id),u.style_name,u.user_name,u.logo FROM qq_relation r LEFT JOIN qq_user u on r.friend_id=u.user_id WHERE ( r.user_id in ( SELECT r.friend_id FROM qq_relation r WHERE ( r.status=1 and r.user_id=11 )  ) and r.status=1 and r.friend_id not in ( SELECT r.friend_id FROM qq_relation r WHERE ( r.status=1 and r.user_id=11 )  ) and r.friend_id<>11 ) LIMIT 5   [ RunTime:0.001799s ]
+SQL: SELECT `user_id`,`style_name`,`user_name`,`logo` FROM qq_user u WHERE ( user_id<>11 and user_id not in ( SELECT `friend_id` FROM qq_relation r WHERE ( user_id=11 and status=1 )  ) ) ORDER BY rand() LIMIT 5   [ RunTime:0.001130s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014905s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000444s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000379s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000290s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001736s ]
+NOTIC: [8] Constant THEME_NAME already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005030s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002207s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000109s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000043s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000010s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005581s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000660s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2015-10-07T17:10:06+08:00 ] 101.226.69.246 /index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001153s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+
+[ 2015-10-07T17:10:06+08:00 ] 101.226.69.246 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001045s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010113s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000484s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000406s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000345s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001915s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000743s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2015-10-07T17:10:32+08:00 ] 58.62.253.44 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000795s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.001643s ]
+SQL: SHOW COLUMNS FROM qq_user u [ RunTime:0.000520s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_user u
+SQL: SHOW COLUMNS FROM qq_relation r [ RunTime:0.000520s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'r' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_relation r
+SQL: SELECT u.user_name,u.logo,u.style_name,r.friend_id,r.remark,r.group_name FROM qq_user u LEFT JOIN qq_relation r on u.user_id=r.friend_id WHERE ( r.user_id=11 AND status=1 AND (u.user_name like '%%' OR r.remark like '%%') )  [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001143s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000875s ]
+SQL: SELECT `user_name`,`style_name`,`logo` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.002146s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.000862s ]
+SQL: SELECT count(*) num FROM `qq_relation` WHERE ( friend_id=11 and status=0 ) LIMIT 1   [ RunTime:0.000506s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012080s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000461s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000565s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000292s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001983s ]
+NOTIC: [8] Constant THEME_NAME already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005032s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002354s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000119s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000045s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000009s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005467s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2015-10-07T17:10:34+08:00 ] 58.62.253.44 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000763s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM qq_user u [ RunTime:0.000513s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_user u
+SQL: SHOW COLUMNS FROM qq_relation r [ RunTime:0.000379s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'r' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_relation r
+SQL: SELECT u.user_name,u.logo,u.style_name,r.friend_id,r.remark,r.group_name FROM qq_user u LEFT JOIN qq_relation r on u.user_id=r.friend_id WHERE ( r.user_id=11 AND status=1 AND (u.user_name like '%%' OR r.remark like '%%') )  [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000922s ]
+SQL: SELECT `user_name`,`style_name`,`logo` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.000782s ]
+SQL: SELECT count(*) num FROM `qq_relation` WHERE ( friend_id=11 and status=0 ) LIMIT 1   [ RunTime:0.000420s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014340s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000606s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000540s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000513s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002698s ]
+NOTIC: [8] Constant THEME_NAME already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004903s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003135s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000123s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000042s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000010s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005378s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000632s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2015-10-07T17:10:36+08:00 ] 58.62.253.44 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000808s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM qq_user u [ RunTime:0.000454s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_user u
+SQL: SHOW COLUMNS FROM qq_relation r [ RunTime:0.000459s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'r' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_relation r
+SQL: SELECT u.user_name,u.logo,u.style_name,r.friend_id,r.remark,r.group_name FROM qq_user u LEFT JOIN qq_relation r on u.user_id=r.friend_id WHERE ( r.user_id=11 AND status=1 AND (u.user_name like '%%' OR r.remark like '%%') )  [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000814s ]
+SQL: SELECT `user_name`,`style_name`,`logo` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.000823s ]
+SQL: SELECT count(*) num FROM `qq_relation` WHERE ( friend_id=11 and status=0 ) LIMIT 1   [ RunTime:0.000469s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010536s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000394s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000388s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000277s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001711s ]
+NOTIC: [8] Constant THEME_NAME already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009014s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002123s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000144s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000045s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000011s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009545s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000731s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2015-10-07T17:10:37+08:00 ] 58.62.253.44 /index.php/Index/Index/dialog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000777s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001126s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000822s ]
+SQL: SELECT `user_name`,`style_name`,`logo` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.000876s ]
+SQL: SELECT count(*) num FROM `qq_relation` WHERE ( friend_id=11 and status=0 ) LIMIT 1   [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.002114s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM qq_content q1 [ RunTime:0.000477s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'q1' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_content q1
+SQL: SELECT q1.id,q1.user_id,q1.pid,q1.content,q1.time FROM qq_content q1 inner join ( SELECT `pid`,MAX(time) AS t FROM `qq_content` WHERE ( user_id=11 ) GROUP BY pid  ) AS q2 ON q1.time=q2.t AND q1.pid=q2.pid  [ RunTime:0.001202s ]
+SQL: SELECT q1.id,q1.user_id,q1.pid,q1.content,q1.time FROM qq_content q1 inner join ( SELECT `user_id`,MAX(time) AS t FROM `qq_content` WHERE ( pid=11 ) GROUP BY user_id  ) AS q2 ON q1.time=q2.t AND q1.user_id=q2.user_id  [ RunTime:0.002085s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000558s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=1 ) LIMIT 1   [ RunTime:0.002158s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000799s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=15 ) LIMIT 1   [ RunTime:0.000580s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=15 ) LIMIT 1   [ RunTime:0.000719s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.001092s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.000692s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=2 ) LIMIT 1   [ RunTime:0.000626s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000508s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000608s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=29 ) LIMIT 1   [ RunTime:0.000639s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000491s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=21 ) LIMIT 1   [ RunTime:0.000541s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=21 ) LIMIT 1   [ RunTime:0.000563s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000810s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=4 ) LIMIT 1   [ RunTime:0.000505s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=4 ) LIMIT 1   [ RunTime:0.002165s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=4 ) LIMIT 1   [ RunTime:0.000544s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=14 ) LIMIT 1   [ RunTime:0.000642s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=14 ) LIMIT 1   [ RunTime:0.000675s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=14 ) LIMIT 1   [ RunTime:0.000603s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049203s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000460s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000399s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000304s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001825s ]
+NOTIC: [8] Constant THEME_NAME already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005298s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002343s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000121s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000044s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000016s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005897s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000668s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2015-10-07T17:10:38+08:00 ] 101.226.89.119 /index.php/Index/Index/dialog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000780s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+
+[ 2015-10-07T17:10:38+08:00 ] 101.226.89.119 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000824s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008054s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000465s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000436s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000257s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001831s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000563s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2015-10-07T17:10:41+08:00 ] 58.62.253.44 /index.php/Index/Index/dialog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000955s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000878s ]
+SQL: SELECT `user_name`,`style_name`,`logo` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.000843s ]
+SQL: SELECT count(*) num FROM `qq_relation` WHERE ( friend_id=11 and status=0 ) LIMIT 1   [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM qq_content q1 [ RunTime:0.000606s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'q1' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_content q1
+SQL: SELECT q1.id,q1.user_id,q1.pid,q1.content,q1.time FROM qq_content q1 inner join ( SELECT `pid`,MAX(time) AS t FROM `qq_content` WHERE ( user_id=11 ) GROUP BY pid  ) AS q2 ON q1.time=q2.t AND q1.pid=q2.pid  [ RunTime:0.000563s ]
+SQL: SELECT q1.id,q1.user_id,q1.pid,q1.content,q1.time FROM qq_content q1 inner join ( SELECT `user_id`,MAX(time) AS t FROM `qq_content` WHERE ( pid=11 ) GROUP BY user_id  ) AS q2 ON q1.time=q2.t AND q1.user_id=q2.user_id  [ RunTime:0.000504s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000461s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=1 ) LIMIT 1   [ RunTime:0.000511s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000447s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=15 ) LIMIT 1   [ RunTime:0.000650s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=15 ) LIMIT 1   [ RunTime:0.000420s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000450s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.000462s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=2 ) LIMIT 1   [ RunTime:0.000453s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000464s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000492s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=29 ) LIMIT 1   [ RunTime:0.000484s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000477s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=21 ) LIMIT 1   [ RunTime:0.000479s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=21 ) LIMIT 1   [ RunTime:0.000512s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000398s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=4 ) LIMIT 1   [ RunTime:0.002034s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=4 ) LIMIT 1   [ RunTime:0.000433s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=4 ) LIMIT 1   [ RunTime:0.000456s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=14 ) LIMIT 1   [ RunTime:0.000464s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=14 ) LIMIT 1   [ RunTime:0.000437s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=14 ) LIMIT 1   [ RunTime:0.000474s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010299s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000439s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000434s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000344s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001881s ]
+NOTIC: [8] Constant THEME_NAME already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005218s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002366s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000129s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000054s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000010s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005785s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2015-10-07T17:10:45+08:00 ] 58.62.253.44 /index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000827s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.001096s ]
+SQL: SHOW COLUMNS FROM qq_user u [ RunTime:0.000512s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_user u
+SQL: SHOW COLUMNS FROM qq_relation r [ RunTime:0.000495s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'r' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_relation r
+SQL: SELECT u.user_name,u.logo,u.style_name,r.friend_id,r.remark,r.group_name FROM qq_user u LEFT JOIN qq_relation r on u.user_id=r.friend_id WHERE ( r.user_id=11 AND status=1 AND (u.user_name like '%%' OR r.remark like '%%') )  [ RunTime:0.002664s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000817s ]
+SQL: SELECT `user_name`,`style_name`,`logo` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.000823s ]
+SQL: SELECT count(*) num FROM `qq_relation` WHERE ( friend_id=11 and status=0 ) LIMIT 1   [ RunTime:0.000494s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010736s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000584s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000557s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000481s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002737s ]
+NOTIC: [8] Constant THEME_NAME already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006219s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003364s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000133s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000044s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000011s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007043s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000758s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2015-10-07T17:10:46+08:00 ] 58.62.253.44 /index.php/Index/Index/dialog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000938s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001179s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001019s ]
+SQL: SELECT `user_name`,`style_name`,`logo` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.000843s ]
+SQL: SELECT count(*) num FROM `qq_relation` WHERE ( friend_id=11 and status=0 ) LIMIT 1   [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `qq_content` [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM qq_content q1 [ RunTime:0.000551s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'q1' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_content q1
+SQL: SELECT q1.id,q1.user_id,q1.pid,q1.content,q1.time FROM qq_content q1 inner join ( SELECT `pid`,MAX(time) AS t FROM `qq_content` WHERE ( user_id=11 ) GROUP BY pid  ) AS q2 ON q1.time=q2.t AND q1.pid=q2.pid  [ RunTime:0.000570s ]
+SQL: SELECT q1.id,q1.user_id,q1.pid,q1.content,q1.time FROM qq_content q1 inner join ( SELECT `user_id`,MAX(time) AS t FROM `qq_content` WHERE ( pid=11 ) GROUP BY user_id  ) AS q2 ON q1.time=q2.t AND q1.user_id=q2.user_id  [ RunTime:0.000535s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000498s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=1 ) LIMIT 1   [ RunTime:0.000477s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000482s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=15 ) LIMIT 1   [ RunTime:0.000466s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=15 ) LIMIT 1   [ RunTime:0.000447s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000437s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.000457s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=2 ) LIMIT 1   [ RunTime:0.000456s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000451s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.000548s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=29 ) LIMIT 1   [ RunTime:0.000529s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000531s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=21 ) LIMIT 1   [ RunTime:0.000470s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=21 ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000515s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=4 ) LIMIT 1   [ RunTime:0.000434s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=4 ) LIMIT 1   [ RunTime:0.000503s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=4 ) LIMIT 1   [ RunTime:0.000473s ]
+SQL: SELECT `user_name`,`logo`,`style_name` FROM `qq_user` WHERE ( user_id=14 ) LIMIT 1   [ RunTime:0.000496s ]
+SQL: SELECT `remark` FROM `qq_relation` WHERE ( user_id=11 AND friend_id=14 ) LIMIT 1   [ RunTime:0.000480s ]
+SQL: SELECT `user_name` FROM `qq_user` WHERE ( user_id=14 ) LIMIT 1   [ RunTime:0.000474s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010235s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000536s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000430s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000397s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002079s ]
+NOTIC: [8] Constant THEME_NAME already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006316s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002752s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000173s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000069s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000019s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007176s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000833s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2015-10-07T17:10:52+08:00 ] 58.62.253.44 /index.php/Index/Index/addFriend
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000818s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `qq_user` [ RunTime:0.000963s ]
+SQL: SELECT `user_name`,`style_name`,`logo` FROM `qq_user` WHERE ( user_id=11 ) LIMIT 1   [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.000865s ]
+SQL: SELECT count(*) num FROM `qq_relation` WHERE ( friend_id=11 and status=0 ) LIMIT 1   [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `qq_relation` [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM qq_relation r [ RunTime:0.000536s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'r' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_relation r
+SQL: SHOW COLUMNS FROM qq_user u [ RunTime:0.000531s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM qq_user u
+SQL: SELECT distinct(u.user_id),u.style_name,u.user_name,u.logo FROM qq_relation r LEFT JOIN qq_user u on r.friend_id=u.user_id WHERE ( r.user_id in ( SELECT r.friend_id FROM qq_relation r WHERE ( r.status=1 and r.user_id=11 )  ) and r.status=1 and r.friend_id not in ( SELECT r.friend_id FROM qq_relation r WHERE ( r.status=1 and r.user_id=11 )  ) and r.friend_id<>11 ) LIMIT 5   [ RunTime:0.000612s ]
+SQL: SELECT `user_id`,`style_name`,`user_name`,`logo` FROM qq_user u WHERE ( user_id<>11 and user_id not in ( SELECT `friend_id` FROM qq_relation r WHERE ( user_id=11 and status=1 )  ) ) ORDER BY rand() LIMIT 5   [ RunTime:0.001319s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009550s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000389s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000395s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000274s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001693s ]
+NOTIC: [8] Constant THEME_NAME already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /data/home/qxu1591180029/htdocs/ThinkPHP/Lib/Core/View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005085s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002102s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000111s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000043s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000019s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005566s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000602s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2015-10-07T17:11:28+08:00 ] 218.241.98.202 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+
+[ 2015-10-07T17:11:28+08:00 ] 218.241.98.202 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001017s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009447s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000391s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000454s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001795s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000655s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2015-10-07T17:55:55+08:00 ] 101.226.64.175 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+
+[ 2015-10-07T17:55:55+08:00 ] 101.226.64.175 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009040s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000571s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000517s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000381s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002337s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000668s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2015-10-07T18:42:03+08:00 ] 116.22.163.92 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+
+[ 2015-10-07T18:42:03+08:00 ] 116.22.163.92 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000819s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008174s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000378s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000385s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001658s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000548s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2015-10-07T21:52:03+08:00 ] 121.42.0.31 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.013850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014111s ]
+
+[ 2015-10-07T21:52:03+08:00 ] 121.42.0.31 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006512s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006757s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044545s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001804s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001997s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001228s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007062s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002027s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002198s ]
+
+[ 2015-10-07T21:53:05+08:00 ] 121.42.0.36 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+
+[ 2015-10-07T21:53:05+08:00 ] 121.42.0.36 /index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000754s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007946s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000359s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000385s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000268s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001668s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000554s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000632s ]
+

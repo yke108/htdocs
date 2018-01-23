@@ -37,6 +37,16 @@ class WechatModel
         {
             $open_id = (string)$postObj->FromUserName;
             $user_info = M('User_info')->where("open_id='{$open_id}'")->find();
+            if (empty($user_info)) {
+                $user_info = [
+                    'open_id' => $open_id,
+                    'status'  => 1,
+                    'add_time' => time(),
+                    'update_time' => time(),
+                ];
+                $user_id = M('User_info')->add($user_info);
+                $user_info['user_id'] = $user_id;
+            }
 			switch ($keyword)
 			{
 				case 1:

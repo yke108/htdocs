@@ -13,53 +13,53 @@ $access_token = $jsoninfo["access_token"];
 $jsonmenu = '{
       "button":[
       {
-            "name":"ÌìÆøÔ¤±¨",
+            "name":"å¤©æ°”é¢„æŠ¥",
            "sub_button":[
             {
                "type":"click",
-               "name":"±±¾©ÌìÆø",
-               "key":"ÌìÆø±±¾©"
+               "name":"åŒ—äº¬å¤©æ°”",
+               "key":"å¤©æ°”åŒ—äº¬"
             },
             {
                "type":"click",
-               "name":"ÉÏº£ÌìÆø",
-               "key":"ÌìÆøÉÏº£"
+               "name":"ä¸Šæµ·å¤©æ°”",
+               "key":"å¤©æ°”ä¸Šæµ·"
             },
             {
                "type":"click",
-               "name":"¹ãÖİÌìÆø",
-               "key":"ÌìÆø¹ãÖİ"
+               "name":"å¹¿å·å¤©æ°”",
+               "key":"å¤©æ°”å¹¿å·"
             },
             {
                "type":"click",
-               "name":"ÉîÛÚÌìÆø",
-               "key":"ÌìÆøÉîÛÚ"
+               "name":"æ·±åœ³å¤©æ°”",
+               "key":"å¤©æ°”æ·±åœ³"
             },
             {
                 "type":"view",
-                "name":"±¾µØÌìÆø",
+                "name":"æœ¬åœ°å¤©æ°”",
                 "url":"http://m.hao123.com/a/tianqi"
             }]
       
 
        },
        {
-           "name":"·½±¶¹¤×÷ÊÒ",
+           "name":"æ–¹å€å·¥ä½œå®¤",
            "sub_button":[
             {
                "type":"click",
-               "name":"¹«Ë¾¼ò½é",
+               "name":"å…¬å¸ç®€ä»‹",
                "key":"company"
             },
             {
                "type":"click",
-               "name":"È¤Î¶ÓÎÏ·",
-               "key":"ÓÎÏ·"
+               "name":"è¶£å‘³æ¸¸æˆ",
+               "key":"æ¸¸æˆ"
             },
             {
                 "type":"click",
-                "name":"½²¸öĞ¦»°",
-                "key":"Ğ¦»°"
+                "name":"è®²ä¸ªç¬‘è¯",
+                "key":"ç¬‘è¯"
             }]
        
 
